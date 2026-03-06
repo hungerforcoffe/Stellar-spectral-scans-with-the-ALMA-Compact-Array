@@ -1,0 +1,25 @@
+Notas para reuinion (23-02-2026)
+
+Considerando que en estrellas con altas tasas de pérdida de masa las intensidades de las líneas de CO se vuelven menos dependientes de la masa debido a la saturación, ¿cree que deberíamos movernos hacia modelos que prioricen el ajuste del perfil de la línea (shape fitting) sobre la intensidad integrada para estos objetos?
+
+Dado que las nebulosas 'fuente de agua' representan una fase evolutiva extremadamente corta (<150 años), ¿cuál considera que es el mayor reto hoy en día para capturar estadísticamente la transición exacta donde la simetría esférica de la AGB se rompe para formar estructuras bipolares? (breve + contaminacion de ISM + perdida de mas sa elevada mucha masa se pierde en post-agb por lo que el trazador de CO se satura se convierte en opticamente gruesas + necesidad de interferometria)
+
+En su estudio comparativo, encuentran que los modelos de polvo/dinámicos dan tasas sistemáticamente más altas que los modelos de CO para estrellas de carbono, pero ocurre lo contrario para las estrellas tipo M. ¿Cree que esta discrepancia se debe únicamente a las abundancias adoptadas de CO/H_2 o podría haber una diferencia fundamental en la eficiencia del acoplamiento momento-gas entre granos de silicato y granos de carbono amorfo que no estamos capturando en los modelos?
+
+Se identifican a V510 Pup como el objeto con la colección más rica de líneas y un flujo de alta velocidad de ∼200 km/s vinculado a una binaria central. ¿Deberíamos empezar a considerar que todos los flujos que superan significativamente la velocidad de expansión típica de la AGB (∼15 km/s) son indicadores indirectos de binariedad o existen mecanismos intrínsecos de una estrella única que puedan disparar estas velocidades?
+
+
+
+Notas para reuinion (01-03-2026)
+
+Para IRAS 06531-0216, el ratio 12CO/13CO medido es de 58±4. Dado que en estrellas de carbono el ratio intrínseco de abundancia suele ser >90 por el tercer dragado, ¿podemos concluir formalmente que la línea de 12CO ya está saturada y que, por tanto, el cálculo de \dot{M} ópticamente grueso es físicamente más representativo que el delgado, a pesar de que visualmente las líneas no parezcan extremadamente opacas?
+
+Encontré que la fórmula de gas ópticamente delgado da una \dot{M} ligeramente inferior a 10−6 M⊙/yr, mientras que la fórmula gruesa arroja 2.35×10−6. Dado que la literatura (Massalkhi et al. 2019) indica que el SiS solo aparece por encima de 10−6, ¿deberíamos establecer la detección de moléculas de alta densidad como el criterio principal para decidir qué fórmula aplicar, incluso por encima de los ratios de intensidad de CO?
+
+La velocidad de expansión de este objeto es de ~35 km/s, lo cual supera los valores típicos de una AGB estándar (10–25 km/s). ¿Considera que esta dinámica, sumada a la tasa de pérdida de masa que calculé, sitúa a IRAS 06531-0216 en una fase de 'superviento' final o estamos viendo ya la aceleración del flujo molecular debida a un jet interno incipiente?
+
+Al aplicar la corrección s(J)=0.6 para la banda 6 y s(J)=1.0 para la banda 3, obtuve una concordancia casi perfecta entre ambas transiciones (∼9.4×10−7M ⊙/yr en el caso delgado). Sin embargo, los haces son muy distintos (~12'' vs ~5''). ¿Qué tanto riesgo hay de que estemos resolviendo parcialmente la envolvente en la banda 6 y subestimando el flujo total, invalidando la suposición de 'emisión no resuelta' que requieren las fórmulas analíticas?
+
+He notado que en este objeto se detecta SiO a pesar de ser una estrella de carbono. Siguiendo lo discutido por Cerrigone (2012) para IRAS 15452, ¿podría este SiO estar atrapado en un disco circunestelar antiguo rico en oxígeno mientras el viento actual es ya de carbono, o es más probable que sea un producto de la química de choques en las regiones internas donde el viento se está acelerando?"
+
+Consejo adicional: Lleva impresos los dos espectros que calculamos (CO 1-0 y 2-1) y resalta el hecho de que, aunque las temperaturas de brillo son bajas (~0.4 K y ~1.2 K), la coherencia matemática entre las dos bandas valida la calidad de tu reducción de datos
