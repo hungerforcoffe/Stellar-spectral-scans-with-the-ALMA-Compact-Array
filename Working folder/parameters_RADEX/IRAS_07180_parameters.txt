@@ -1,0 +1,39 @@
+Molecule / Data file 
+CO
+
+
+Spectral Range
+Minimum frequency (GHz)	
+50
+Maximum frequency (GHz)	
+300
+
+Excitation Conditions
+Background temperature (K)	
+2.73
+Kinetic temperature (K)	
+130
+H2 density (cm-3)	
+1e6
+
+Radiative Transfer Parameters
+Column density (cm-2)	
+1e17
+Line width (km s-1)	
+57.22
+
+Choose method to calculate
+The escape probability (β)	
+LVG
+The excitation temperature (Tex)	
+Classic
+Relative tolerance ( ε)	
+1.0e-4
+under-relaxation factor ( α)	
+0.25
+
+
+Transition	Frequency	Tex	tau	TR
+(GHz)	(K)		(K)
+1   --   0	 115.2712          	 133.699          	 2.263E-03          	 2.941E-01          
+2   --   1	 230.5380          	 132.464          	 8.580E-03          	 1.083E+00    
