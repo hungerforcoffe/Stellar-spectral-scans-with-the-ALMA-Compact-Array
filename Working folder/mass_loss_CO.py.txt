@@ -1,0 +1,135 @@
+import numpy as np
+import pandas as pd
+
+# ============================================================
+# PARÁMETROS POR ESTRELLA — completar con los valores de cada notebook
+# ============================================================
+stars = {
+    'RV_Aqr': {
+        'T_mb_peak': 2.5315,   # K — del fit
+        'V_exp':     14.92,    # km/s — del fit
+        'D':         635.24,   # pc
+        'BMAJ_deg':  4.608768552314E-03,
+        'BMIN_deg':  2.453349310141E-03,
+        'W':         0.3586,
+        's_J':       1.0,
+        'f_CO':      1e-3,     # C star
+        'type':      'C star',
+        'transition':'CO(1-0)'
+    },
+    'RZ_Sgr': {
+        'T_mb_peak': None,     # completar
+        'V_exp':     None,
+        'D':         None,
+        'BMAJ_deg':  None,
+        'BMIN_deg':  None,
+        'W':         None,
+        's_J':       1.0,
+        'f_CO':      6e-4,     # S star
+        'type':      'S star',
+        'transition':'CO(1-0)'
+    },
+    'UU_For': {
+        'T_mb_peak': None,
+        'V_exp':     None,
+        'D':         None,
+        'BMAJ_deg':  None,
+        'BMIN_deg':  None,
+        'W':         None,
+        's_J':       1.0,
+        'f_CO':      2e-4,     # Mira M
+        'type':      'Mira M',
+        'transition':'CO(1-0)'
+    },
+    'R_Hor': {
+        'T_mb_peak': None,
+        'V_exp':     None,
+        'D':         None,
+        'BMAJ_deg':  None,
+        'BMIN_deg':  None,
+        'W':         None,
+        's_J':       1.0,
+        'f_CO':      2e-4,     # Mira M
+        'type':      'Mira M',
+        'transition':'CO(1-0)'
+    },
+    'IRAS_08500': {
+        'T_mb_peak': None,
+        'V_exp':     None,
+        'D':         None,
+        'BMAJ_deg':  None,
+        'BMIN_deg':  None,
+        'W':         None,
+        's_J':       1.0,
+        'f_CO':      2e-4,     # Mira M (Me)
+        'type':      'Mira M',
+        'transition':'CO(1-0)'
+    },
+}
+
+# ============================================================
+# CÁLCULO
+# ============================================================
+def calc_mdot(params):
+    T_mb   = params['T_mb_peak']
+    V_exp  = params['V_exp']
+    D      = params['D']
+    BMAJ   = params['BMAJ_deg'] * 3600  # deg -> arcsec
+    BMIN   = params['BMIN_deg'] * 3600
+    theta  = np.sqrt(BMAJ * BMIN)
+    W      = params['W']
+    s_J    = params['s_J']
+    f_CO   = params['f_CO']
+
+    log_term = np.log10(W / 0.04)
+    T_term   = T_mb / (log_term * s_J)
+    Dtheta   = D * theta
+
+    Mdot_thin = (4.55e-19
+                 * (T_term ** (5/6))
+                 * (f_CO ** (-1))
+                 * (V_exp ** (11/6))
+                 * (Dtheta ** (5/3)))
+
+    Mdot_thick = (1.4 * T_mb * (V_exp**2) * (D**2) * (theta**2)
+                  / (2e19 * (f_CO**0.85) * s_J))
+
+    return Mdot_thin, Mdot_thick, theta, Dtheta, log_term
+
+# ============================================================
+# CONSTRUIR TABLA
+# ============================================================
+rows = []
+for name, params in stars.items():
+    # saltar si faltan datos
+    if any(v is None for v in params.values()):
+        print(f"  {name}: faltan parámetros, saltando...")
+        continue
+
+    Mdot_thin, Mdot_thick, theta, Dtheta, logW = calc_mdot(params)
+
+    rows.append({
+        'Source':          name,
+        'Type':            params['type'],
+        'Transition':      params['transition'],
+        'D_pc':            params['D'],
+        'T_mb_peak_K':     params['T_mb_peak'],
+        'V_exp_kms':       params['V_exp'],
+        'theta_arcsec':    round(theta, 4),
+        'D_theta':         round(Dtheta, 2),
+        'W':               round(params['W'], 4),
+        'log_W_0.04':      round(logW, 4),
+        'f_CO':            params['f_CO'],
+        's_J':             params['s_J'],
+        'Mdot_thin_Msunyr':  f'{Mdot_thin:.4e}',
+        'Mdot_thick_Msunyr': f'{Mdot_thick:.4e}',
+    })
+
+df = pd.DataFrame(rows)
+print(df.to_string(index=False))
+
+# ============================================================
+# EXPORTAR
+# ============================================================
+df.to_csv('mass_loss_CO10.csv', index=False)
+print("\nGuardado: mass_loss_CO10.csv")
