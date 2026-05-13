@@ -1,4 +1,4 @@
-Source,Type,CO(1-0) Jy·km/s,13CO(1-0) Jy·km/s,CO(2-1) Jy·km/s,13CO(2-1) Jy·km/s,Ratio R(2-1)/(1-0),Ratio R(2-1)/13CO(2-1),Ratio R(1-0)/13CO(1-0)
+Source,Type,12CO(1-0) Jy·km/s,13CO(1-0) Jy·km/s,12CO(2-1) Jy·km/s,13CO(2-1) Jy·km/s,Ratio R12CO(2-1)/12CO(1-0),Ratio R12CO(2-1)/13CO(2-1),Ratio R12CO(1-0)/13CO(1-0)
 IRAS_06531,C star,27.992,,87.8595,1.0361,3.1387,84.6838,
 IRAS_07145,C star,10.7001,,38.4563,1.4299,3.594,26.7066,
 IRAS_07180,OH/IR star,1.0541,,11.3168,2.2871,10.7362,4.9481,
