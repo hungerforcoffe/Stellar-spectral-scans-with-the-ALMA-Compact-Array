@@ -1,0 +1,122 @@
+446
+
+XIE, YOUNG, & SCHLOERB
+
+Vol. 421
+
+nucleus of NGC 2146 is higher than in IC 342, or that the CS
+
+molecules are more abundant in NGC 2146.
+
+5. DISCUSSION : GAS PROPERTIES IN NGC 2146 AND IC 342
+
+So far, our analysis has been based on the LTE approximation under the assumptions that the ~ 2C0 and ~ 3C0 emission have the same excitation temperature, and that the
+excitation temperature remains unchanged throughout the
+energy level ladder. These assumptions are only valid when the
+gas is thermalized, and these conditions may not reflect reality
+for two isotopes with fairly different opacities. Indeed, the low
+13C0 J = 2-1/f = 1-0 ratio of 1.4 acquired in IC 342 mdicates that ~ 3C0 may only be subthermalized.
+An informative way to learn the physical conditions of the
+gas is to compare the observational line ratios with the results
+of non-LTE radiative transfer model calculations. In addition
+to the excitation temperature, such a comparison may provide
+us the information on the gas density which is required
+to produce the observed line ratios. To simplify the calculations, we assume that the ensemble average of excitation
+temperatures and mean densities of the gas are constant
+over the nuclear region we observed, and we use the escape
+probability method to calculate the average line excitations.
+Following the calculations of local line excitation in Kwan &
+Sanders (1986), the photons are presumed to come from
+individual local regions (e.g., clumps). Along the line of sight,
+the scale of such a local region is denoted to be x, and the
+mean photon escape probability from this local region is
+assumed to be J3 = [1 - exp (-O.5t~)]/(O.5t~), where ; =
+(flL ~U g~/g~)(BLU hc/4ir)(x/ir"2AvD) is the opacity through
+the region. Instead of considering the velocity gradient over
+this region, which results in the equivalent Doppler thermal
+width at a particular velocity in the LVG model, we assume
+that there is only thermal broadening in the local region. The
+thermal velocity dispersion, AVD = (2kT/14mH2)112, is used to
+calculate the opacity. The lowest J = 0-9 rotational levels and
+the 2.75 K cosmic background radiation are included in the
+calculations. The large-scale velocity laws which give rise to
+the line width of the individual cloud and the total line width of
+a spectrum will not be discussed in this work because we are
+not attempting to reproduce detailed line shapes. The interaction of the emitted photons with any foreground material
+has been neglected in our calculations. We are aware that
+although it is likely that the cloud overlap may not be a serious
+problem for extragalactic CO observation (Dickman et a!.
+1986), the absorption of the photons by other intervening
+clumps at the same velocity within each individual cloud have
+to be taken into account if more realistic model calculations
+are carried out. The calculations presented here, therefore, are
+the simplest non-LTE radiative transfer calculations.
+The input parameters in our calculations include the molecular hydrogen density n(H2), temperature T, fractional abundances `2C0/H2 (also denoted asf[CO]) and 12C0/13C0, as
+well as the scale x. The combined parameter f(CO)(x/~vD) in
+our calculations is equivalent to the joint parameterf(CO)DX/
+D V in the LVG model, where DX/DV represents the velocity
+gradient. The values discussed by various authors for
+f(CO)DX/DV in the LVG model range from iO~ to iO~ km
+1 pc ` (e.g., Goldsmith, Young, & Langer 1983). There is no
+special physical ground for the choice of a scale, x, in our
+calculations. Following Kwan & Sanders (1986), we adopt a
+value of 8 x 1016 cm. At T = 20 K and f(CO) = iO~, the
+value of the combined parameterf(CO)x/AvD is 3.4 x 10 ~ km
+5 - 1 pc `. By assuming fractional abundances 12C0/H2 =
+
+io~ and 12C0/'3C0 = 60, we compute the `2C0, `3C0
+J = 2-1/f = 1-0 and `2C0/'3C0 f = 1-0 ratios as functions
+of molecular hydrogen density and temperature. The observed
+line ratios are compared with the model results to narrow
+down the possible range of the physical parameters which best
+fit the observational data. The model results are most sensitive
+to the input value off(CO)x/AvD. To sense the effect of the joint
+parameter on the derivation of the line excitation conditions,
+we also perform the calculations by utilizing several different
+f(CO) values.
+
+5.1. NGC 2146
+Figure 9 illustrates the results, the calculated line ratios
+versus molecular hydrogen density and kinetic temperature.
+To show how the observational data constrain the physical
+parameters more clearly, we only plot the contours which represent the observed line ratios and their 1 i lower and upper
+limits. Ideally, if the four emission lines of `2CO and ~ 3C0
+come from a single component, only `2C0 f = 2-1/f = 1-0
+and ~ 3C0 f = 2-1/f = 1-0 ratios are needed to confine the
+possible range of density and temperature when a set of' 2C0/
+13C0 fractional abundances are given. In Figure 9 we plot
+three line ratios, `2C0 f = 2-1/f = 1-0, `3C0 J = 2-1/f =
+1-0, and `2C0/'3C0 f = 1-0, because of the possibility that
+one set of average density and temperature may not be able to
+explain the observed intensities of all four transitions. It is
+expected that the f = 1-0 emission is insensitive to the existence of a small amount of warm gas as the f = 1-0 line can be
+excited at relatively low temperatures. The higher f = 2-1
+emission, on the other hand, may be contributed by the warm
+gas. Therefore, even if the f = 2-1/f = 1-0 rato is largely
+affected by the warm gas (especially when an observed value of
+greater than 1 is found for the `2C0 f = 2-1/f = 1-0 ratio),
+the additional `2C0/'3C0 f = 1-0 ratio should provide information which traces the average physical conditions of the
+bulk of the lower temperature gas.
+Figure 9a presents the contour maps of the calculated line
+ratios which are constrained by the observed ` 2C0 and ` 3C0
+J = 2-1/f = 1-0 and `2C0/'3C0 f = 1-0 ratios at the center
+45" region of NGC 2146, for the fractional abundances of
+`2C0/H2 = iO~ and `2C0/'3C0 = 60. Following the discussion at the end of § 4.2, we use the `3C0 f = 2-1/f = 1-0
+ratio of 3, a moderate value between the formally observed
+lower limit of 2 and the maximum ratio of 4, to constrain the
+model results. In the figure, the contours marked by the thick
+lines pertain to the observed `2C0 f = 2-1/f = 1-0 ratio of
+0.95 (solid line), `3C0 f = 2-1/f = 1-0 ratio of 3.0 (dot longdashed line), and `2C0/'3C0 f = 1-0 ratio of 17 (short-dashed
+line). The two thin lines of each type refer to the 1 r lower and
+upper limits (see Table 5). For NGC 2146, a relatively small
+and well-defined region in the T - n(H2) diagram can be
+located, in which the contours of the observed `2C0 f = 2-1/
+f = 1-0, `3C0 f = 2-1/f = 1-0, and `2CO/'3C0 f = 1-0
+ratios intersect with each other. This suggests that in the 45"
+nuclear region of NGC 2146, the molecular gas which generates the observed intensities of the four lines can be approximately described by a set of average physical parameters, with
+T ~ 55 K and n(H2) `~ 2 x iO~ cm ~. Considering the whole
+parameter range defined by the lower limits of the observed
+line ratios, we find that T > 40 K and n(H2) > 5 x iO~ cm
+at the center ofNGC 2146.
+Figure 9b shows two sets of model results calculated by
+using `2C0/H2 = 2 x iO~ and `2CO/H2 = iO~ respectively, and constrained by the observed `2C0 and `3C0

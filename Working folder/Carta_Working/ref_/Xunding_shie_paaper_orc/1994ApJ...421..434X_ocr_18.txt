@@ -1,0 +1,179 @@
+0
+
+0 20 40 60 80 100 120 0 20 40 60 80
+T(K) T(K)
+FIG. ha FIG. llb
+
+FIG. 11.-(a) Observed 12C0(1-O)/CS(2-1) integrated line ratio versus 50" dust temperature derived by Rickard & Harvey (1984). Coding of the points is as
+follows: open circles for data in this paper, open squares for data in Mauersberger & Henkel (1989), open triangles for data in Mauersberger et al. (1989), and
+asterisks for data in Sage et al. (1990). The curves represent the calculated ~ 2C0(1-0)/CS(2-1) line ratio as function of gas temperature, from the radiative transfer
+calculations. The numbers marked near the solid curves are the gas densities used in the calculations. The dashed curves were obtained by using the same set of gas
+densities for different CS/H2 fractional abundances. The two filled circles without error bars are the observed `2C0(1-O)/CS(2-1) ratios in NGC 2146 and IC 342
+plotted against the derived gas temperature. (b) Same as (a) but using the global IRAS dust temperature.
+
+and from galaxy to galaxy is desired to refine the mass determinations.
+The gas and the dust may be coupled in the centers of NGC
+2146 and IC 342. The dependence of the observed 12C0/13C0
+J = 1-o ratio on the dust temperature in the centers of 38
+galaxies may be explained by the possible coupling and the
+results of radiative transfer calculations. The detections of the
+Cs J = 2-1 emission in NGC 2146 and IC 342 are consistent
+with the preferred presence of dense gas in the nuclei of these
+two galaxies.
+
+5. x. gratefully acknowledges the allocation of observing
+time and financial support by the Five College Radio
+Astronomy Observatory, with special thanks to William
+Irvine. We would like to thank John Kwan and Ronald Snell
+for very helpful discussions. 5. X. appreciates the consultations
+of Mike Brewer during the course of observation and data
+reduction. Research at FCRAO is supported by NSF grant
+AST 88-15406. This is contribution No. 783 of the FCRAO
+and the Five College Astronomy Department.
+
+REFERENCES
+
+Aalto, S., Black, J. H., Johansson, L. E. B., & Booth, R. S. 1991, A&A, 249, 323
+Becklin, E. E., Gatley, I., Matthews, K., Neugebauer, G., Sellgren, K., Werner,
+M. W., & Wynn-Williams, C. G. 1980, ApJ, 236, 441
+Bevenuti, P., Capaccioli, M., & D'Odorico, S. 1975, A&A, 41,91
+Bloemen, J. B. G. M., Strong, A. W., Blitz, L., Cohen, R. S., Dame, T. M.,
+Lebrun, F., Mayer-Hasselwander, H. A., & Thaddeus, P. 1986, A&A, 154,25
+Combes, F. 1991, ARA&A, 29, 195
+Condon, J. J., Condon, M. A., Gisler, G., & Puschell, J. J. 1982, ApJ, 252, 102
+Cox, P., & Mezger, P. G. 1987, in Proc. Star Formation in Galaxies, ed.
+C. Lonsdale(Washington: NASA), 23
+Crawford, J., & Rowan-Robinson, M. 1986, MNRAS, 221,53
+de Jong, T., & Brink, K. 1987, in Proc. Star Formation in Galaxies, ed.
+C. Lonsdale(Washington : NASA), 323
+de Vaucouleurs, G. 1950, Ann. Ap., 13, 362
+
+de Vaucouleurs, G., de Vaucouleurs, A., & Corwin, H. G. 1976, Second Reference Catalog ofBright Galaxies(Austin: Univ. Texas Press) (RC2)
+Devereux, A. N., & Young, J. S. 1990, ApJ, 359,42
+. 1992, AJ, 103, 1536
+Dickman, R. L., Snell, R. L., & Schloerb, F. P. 1986, ApJ, 309, 326
+Eckart, A., Downes, D., Genzel, R., Harris, A. I., Jaffe, D. T., & Wild, W. 1990,
+ApJ, 348, 434
+Goldreich, P., & Kwan, J. 1974, ApJ, 189, 441
+Goldsmith, P. F., Young, J. S., & Langer, W. D. 1983, ApJS, 51, 203
+Harris, A. I., Hills, R. E., Stutzki, J., Graf, U. U., Russell, A. P. G., & Genzel, R.
+1991, Api, 382, L75
+Hayashi, M., Handa, T., Sofue, Y., Nakai, N., Hasegawa, T., Lord, S., &
+Young, i. 1986, in IAU Symp. 115, Star Forming Regions, ed. M. Peimbert
+& i. iugaku (Dordrecht: Reidel), 631STUDY OF NGC 2146 AND IC 342 451
+
+300
+
+
+250
+
+
+~ 200
+
+
+U
+
+z:
+
+0
+N° too
+
+
+50
+
+~1 I ~ ~ ~ I I ~ ~ I I I I I I ~ I I I ~ I I
+
+
+I [`2C0]/[H2] = 1o~
+
+. - [CS]/[H2] = 2x10'°
+
+I---- [CS]/[H2] = i~~° ~ -
+
+
+. 4x104
+
+
+- <io4~i
+
+
+- ._4x104-
+
+- 6x104
+- __---~~8x104
+- ~
+
+300
+
+
+250
+
+
+200
+
+
+150
+
+
+100
+
+
+50
+
+
+0
+
+C'2
+
+
+U
+
+
+0
+U
+
+
+*1
+
+
+I
+.
+
+I I I I I I I I I I I I
+
+
+[`2C0]/[H2] = 1o~
+
+[cS]/[H21 = 2x101°
+
+I I I I I I I I I
+
+
+-
+
+
+[cS]/[H2] = 1o~
+
+-
+
+
+4x104
+
+(i04 -
+
+
+
+6x104
+
+~
+
+
+
+liii I I i ~ i Ii i i I ~ i ~ l~ i
+
+
+I f i i i I i i i__I i ~ i I i i i I i i
+
+100 120
+
+

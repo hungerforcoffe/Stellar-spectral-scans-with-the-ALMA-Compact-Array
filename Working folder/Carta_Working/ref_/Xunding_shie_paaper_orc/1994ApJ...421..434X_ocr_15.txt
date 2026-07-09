@@ -1,0 +1,123 @@
+448
+
+XIE, YOUNG, & SCHLOERB
+
+Vol. 421
+
+`2C0/H2 = iO~, we compute the optical depths of the 12C0
+and ` 3C0 emission and then derive the beam filling factor of
+NGC 2146. The 12C0 J = 1-0 and J = 2-1 lines are optically
+thick, with t('2C0 J = 1-0) `~ 6 and `r('2C0 J = 2-1) ~ 22.
+The excitation temperatures obtained are close to the input
+temperature. The `3C0 emission are optically thin, with
+x(13C0 J = 1-0) `~ 0.04 and `r('3C0 J = 2-i) `~ 0.23. The
+results are very similar to those obtained in § 4.2 by assuming
+the local thermodynamic equilibrium conditions. Making use
+of the calculated optical depth and the excitation temperature,
+as well as the observed peak intensity of the 12C0 J = 1-0 line,
+we find a filling factor of ~~O.5% in a 45" beam at the center of
+NGC 2146.
+
+5.2. IC 342
+Figures 9c and 9d show the contour maps of the calculated
+line ratios constrained by the observed values in the nuclear
+region of IC 342. Unlike the case of NGC 2146, the contours
+with a `2C0 J - 2-1/f = 1-0 ratio of 1.1, `3C0 J = 2-1/
+J = 1-0 ratio of 1.4 and `2C0/'3C0 J = 1-0 ratio of 10 do
+not all intersect in a relatively small region in the T - n(H2)
+diagram. In Figure 9c, which presents the results of using
+`2C0/H2 = iO-~, the contours of the 13C0 J = 2-1/f = 1-0
+and `2C0/'3C0 f = 1-0 ratios intersect at T `~` 25 K and
+n(H2) `~ 4 x i03 cm3, while the `2C0 f = 2-1/f = 1-0
+contour is located above the point, spanning over the region
+with T > 70 K. Eckart et a!. (1990) obtain a 12C0 f = 2-1/
+f = 1-0 ratio of 1.1-1.6 along a ridge 500 pc east of the center
+of IC 342 (which is partially covered by our 45" beam) and
+interpret that there may be CO emission from optically thin
+gas at a temperature of greater than 40 K. They propose, in
+addition to a "one-component" model, an alternative "twocomponent" model in which the `2C0 emission would origmate from a small amount of warm, low-density molecular gas
+in photodissociation regions and/or a warm, interclump
+medium. The lack of intersecting between the `2C0 f = 2-1/
+f = 1-0 contour and the other two contours in our plot similarly implies that the 12C0 f = 2-1 emission at the center of
+IC 342 may be dominated by a warm gas component whose
+average temperature is much higher than 25 K. Nevertheless,
+within the 1 a uncertainties, the set of physical parameters
+indicated by the crosspoint of the `3C0 f = 2-1/f = 1-0 ratio
+of 1.4 and the `2C0/'3C0 f = 1-0 ratio of 10 contours can
+still fit the observed `2C0 f = 2-1/f = 1-0 lower limit of 0.8.
+In conjunction with the `2CO/'3C0 f = 1-0 ratio, the
+observed 13C0 f = 2-1/f = 1-0 ratio in IC 342 provide significant constraints on the physical properties of the molecular
+gas. The extent of the parameters which match all the three
+observed ratios within 1 a uncertainties in IC 342 are estimated
+tobel5K< T<3OKand3 x 103cm3<n(H2)<7 x iO~
+cm ~, if the fractional abundances of ~ 2C0/H2 = 10 ~ and
+`2C0/'3C0 = 60 are used.
+The thick solid, dashed, and dot long-dashed lines in Figure
+9d indicate the calculated results in the case of `2C0/H2 = 2
+x i04 and `2C0/13C0 = 60, and constrained by the
+observed line ratios in IC 342. The thin solid, dashed, and dot
+long-dashed lines show the results in the case of `2C0/H2 =
+10~ ~. As in Figure 9b, the contours which represent observed
+1 ci upper and lower limits are not shown in Figure 9d for the
+sake of clarity. The hatched arrow in the figure traces the
+derived average physical conditions at the center of IC 342
+when the fractional abundance `2C0/H2 used in the calculations gradually changes from 2 x iO~ to 10 ~. The average
+
+temperature and density of the molecular gas in the 45" nuclear
+region of IC 342 are estimated to be T ~ 13 K and n(H2) ~ 2
+x iO~ cm ~ over the fractional abundance range studied here.
+The optical depths of the 12C0 and `3C0 emission in the
+nuclear region of IC 342 are computed by using the average
+physical parameters of T ~ 25 K and n(H2) `~ 4 x iO~ cm
+ascertained at 12C0/H2 = iO~. The results of i~(12CO f =
+1-0) ~ 9 and r('2C0 f = 2-1) `~ 26 are estimated based on the
+observed 12C0 f = 2-1/f = 1-0 lower limit of 0.8. Differing
+from the estimation based on the LTE analysis, in which the
+optical depths of the ~ 3C0 J = 2-1 and 1-0 lines only differ by
+a factor of 1.3, the optical depths of the `3C0 f = 2-1 and 1-0
+emission obtained here are ~ 0.05 and `~ 0.5, respectively. The
+filling factor in a 45" beam at the center of IC 342 is found to be
+about 6% by using the calculated optical depth and excitation
+temperature at T = 25 K and n(H2) = 4 x iO~ cm ~ as well as
+the observed ~ 3C0 f = 1-0 peak intensity.
+The above-estimated average temperatures, densities, and
+filling factors allow us to evaluate the ~/`~i~j/T~0 ratio and to
+check the applicability of the Galactic CO to H2 conversion
+factor at the centers of these two galaxies. The N(H2)/I~0 conversion factor has been discussed in several recent papers
+based on molecular line observations in external galaxies.
+Their results show that the derived N(H2)/I~0 conversion
+factors are either very close to or within a factor of 2 of the
+typical value derived for the molecular clouds in the Galaxy
+(e.g., Eckart et a!. 1990; Sage et a!. 1990; Radford, Solomon, &
+Downes 1991 ; Sage & Isbell 1991). Our study results in similar
+conclusions. For the same CO abundance, the CO to H2 conversion factors indicated by our data for NGC 2146 and IC
+342 are suprisingly close. In particular, if the typical abundance
+ratios of [12CO]/[H2] = iO~ and [`2CO]/['3CO] = 60 are
+assumed, the derived N(H2)/I~0 conversion factors at the
+centers of NGC 2146 and IC 342 are within a factor of 2 of the
+typical Galactic value.
+
+6. COMPARISONS AMONG GALAXIES
+
+6.1. Gas and Dust Coupling
+
+Although the `2C0 and `3C0 f = 2-1 observations in galaxies are still relatively scarce compared with the available
+extragalactic `2C0 f = 1-0 data (see Young et al. 1989), a fair
+amount of extragalactic ~ 3CO f = 1-0 data have been
+published (e.g., Rickard & Blitz 1985; Young & Sanders 1986;
+Sage & Isbell 1991 ; Aalto et al. 1991). The simple model results
+obtained here may be used to understand the observational
+data in other galaxies. This in turn permits the NGC 2146 and
+IC 342 data to be placed in a broader context.
+Based on the radiative transfer calculations and the
+observed data, we look into the dependence of the ` 2CO/' 3C0
+f = 1-0 ratio on the average dust temperature, and the possibility that such a dependence can approximately be seen as a
+dependence on gas temperature. In principle, if the ` 2C0 emission is optically thick and the ` 3C0 emission is optically thin,
+the expected `2CO/13C0 line ratio is roughly proportional to
+the gas temperature because of the dependence of opacity on
+excitation temperature. The ratio seems to be also related
+to the average dust temperature derived from IRAS
+S60 ,url,jrn flux density ratio. Young & Sanders (1986) have
+noticed that the global `2C0/' 3C0 f = 1-0 line ratio
+increases with global dust temperature. Recent studies (Sage &
+Isbell 1991 ; Aalto et al. 1991) similarly support a possible

@@ -1,0 +1,113 @@
+450
+
+XIE, YOUNG, & SCHLOERB
+
+12c0/13c0 J = 1-0 line ratio at n(H2) `~ iO'~ cm ~ on gas
+temperature are very similar. This suggests that gas and dust
+may be coupled in the nuclear regions of the galaxies.
+Knowledge of the relationship between the gas and dust
+components is essential to understanding the star formation
+process because of the possibility that at high densities the gas
+molecules are indirectly heated by collisions with the warm
+dust grains (Goidreich & Kwan 1974). The energy transfer
+between the dust and gas components which would be sufficient to keep the gas temperature close to the dust temperature
+requires n(H2) > iO~ cm ~, and gas-dust coupling is expected
+at n(H2) > iO'~ cm ~ (Solomon 1978). Our results for NGC
+2146 and IC 342 indicate such a TGaS TDUSt correlation might
+exist in their nuclear regions. The average gas density ascertamed in the nuclear regions of these two galaxies is higher
+than iO~ cm ~. In the center of NGC 2146, the gas and dust
+may be more tightly coupled so that the average gas temperature is close to the average dust temperature because of the
+higher density of n(H2) > iO'~ cm ~. The derived average temperatures of the bulk of molecular gas in these two galaxies
+seem to be close to their global IRAS dust temperatures.
+The gas-dust coupling is a complicated problem. It is well
+understood that there are multiple components of the dust
+(e.g., Crawford & Rowan-Robinson 1986; de Jong & Brink
+1987; Helou 1987; Cox & Mezger 1987; Xu & De Zotti 1989;
+Devereux & Young 1990, 1992). Some papers have tried to
+determine the normalized distribution of dust grains as a function of temperature using IRAS and FIR/submillimeter continuum data (e.g., Pajot et al. 1986; Heyer et al. 1989; Xie,
+Goldsmith, & Zhou 1991 ; Kwan & Xie 1992). Warm and cool
+components of gas have also been discussed with respect to
+several galaxies (e.g., Eckart et al. 1990; Mauersberger, Henkel,
+& Sage 1990; Mauersberger et al. 1991 ; Harris et al. 1991). The
+global dust temperature calculated from the IRAS data mdicates the presence of warm dust, while the average gas temperature from `2C0 and `3C0 data is derived by simply
+assuming a single gas component. The coupling between the
+various components of the gas and the dust cannot be sufficiently understood in the present work. More high-resolution
+infrared continuum and molecular line observations on the
+same scale are necessary to understand the coupling between
+the gas and dust components over more extended regions in
+galaxies.
+
+6.2. Dense Gas
+
+To test the densities derived by CO observations, we consider CS observations in the nuclei ofNGC 2146 and IC 342 as
+well as other galaxies. Our calculations show that only at
+n(H2) > 2 x iO~ cm ~ does the CS J = 2-1 emission becomes
+significant. Figures 1 la and 1 lb present similar plots as in
+Figures lOa and lOb for the case of `2CO(1-O)/CS(2-l) line
+ratio. Both the observed 12CO(1-O)/CS(2-l) ratio as a function
+of dust temperature and the calculated `2CO(l-O)/CS(2-l)
+ratio as a function of gas temperature are presented in the
+figure. The observed `2CO/CS data are taken from this work
+and others (Mauersberger et al. 1989; Mauersberger & Henkel
+1989; Sage et al. 1990). The solid curves are the calculated
+ratios obtained by using the CS/H2 fractional abundance of
+2 x 10 ~ and the dashed curves are the results of using
+CS/H2 _ lO~. The `2CO/CS line ratio is sensitive to the
+change in the fractional abundance of the relatively rarer
+species and to the gas density because the optical depth of the
+
+CS line (in the Milky Way) is typically 1-3. The results of CS
+observations in NGC 2146 and IC 342 are consistent with the
+expectation of the model results and the CO observations. The
+observed `2CO(l-O)/CS(2-l) ratio is lower in NGC 2146 than
+that in IC 342, supporting with the conclusion drawn from the
+CO observations that the gas density is higher in NGC 2146
+than in IC 342. The wide range in 12CO(l-O)/CS(2-l) ratios
+observed at the centers of these galaxies, to some extent, might
+indicate a difference in the average gas density or CS abundance. The detections of CS emission at the centers of both
+NGC 2146 and IC 342 support the conclusion drawn in previous works (e.g., Mauersberger et al. 1989; Sage et al. 1990)
+that large amounts of dense gas exist in the centers of many
+galaxies.
+
+7. SUMMARY
+
+The nuclear regions of NGC 2146 and IC 342 have been
+observed in `2C0 and `3C0 J = 2-1 and 1-0, as well as CS
+J = 2-1 emission with the FCRAO 14 m telescope. The `2C0
+J = 2-1 and 1-0 line shapes in the central 45" of these actively
+star-forming galaxies are remarkably similar.
+The observed `2C0, `3C0 J = 2-1/f = 1-0, and `2CO/
+`3C0 f = 1-0 line ratios are compared with the results of a
+simple non-LTE radiative transfer calculation to ascertain the
+physical conditions of the molecular gas in the nuclei of these
+two galaxies. The comparisons indicate that the observed
+`3CO f = 2-1/f = 1-0 and `2C0/13CO f = 1-0 line ratios
+provide the most significant constraints on the physical
+properties of the bulk of molecular gas, especially when a relatively low ` 3C0 f = 2-1/f = 1-0 ratio is observed. The
+derived average gas properties are sensitive to the choice of
+12C0/H2 abundance ratio.
+The average temperatures and the densities of the molecular
+gas in the nuclear 45" regions of NGC 2146 and IC 342 are
+found to be higher than the typical values of the Galactic
+GMCs but similar to those in the molecular clouds of the
+Galactic center. In NGC 2146, the average gas temperature is
+around 55 K (with lower limit of `~` 40 K), and the average gas
+density is about 2 x iO'~ cm ~ (with lower limit of `~` 6 x iO~
+cm 3) if the fractional abundances of ~ 2C0/H2 = 10 ~ and
+12CO/'3C0 = 60 are used. The average gas properties ascertamed in IC 342 are T~ 25 K (with lower limit of `~ 20 K) and
+n(H2) `~` 4 x io~ cm ~ ~ (with lower limit of `~` 3 x iO~ cm 3)
+using the same abundance ratios. A small amount of warm gas,
+which contributes significantly to the `2C0 f = 2-1 emission,
+might exist in the nuclear 45" region of IC 342. The two galaxies seem to have some differences in terms of the physical
+properties of the bulk of molecular gas at the nuclei.
+The average temperature and density are higher in NGC
+2146 than in IC 342. Thus, one might expect that the CO
+luminosity per unit mass of molecular cloud might differ as
+well. However, we note that as long as the same abundance
+ratios of 12CO/H2 and 12C0/13C0 apply to both galaxies, the
+derived values ofthis luminosity to mass ratio, which depends
+on the value ~Jn(H 2)/T~0, are quite similar in these two galaxies, and if the abundance ratios of `2C0/H2 = iO~ and
+`2C0/13C0 = 60 are used, they are within a factor of 2 of the
+value in the Milky Way. Thus, if the physical properties in
+other galaxies are similarly correlated, this result would tend to
+provide further support for the use of CO as tracer of molecular gas in external galaxies. A precise knowledge of the gradients of molecular and isotropic abundances within a galaxy

@@ -1,0 +1,49 @@
+No. 2, 1994
+
+STUDY OF NGC 2146 AND IC 342
+
+443
+
+FIG. 7.-Comparisons of central `2C0, `3C0, and CS emission profiles in NGC 2146. The 45" `2C0 and `3C0 J = 2-1 spectra displayed are the five-beam
+synthesized spectra (see text).
+
+It is obvious that if we compare the two transitions observed
+with the same telescope at only a single position, the fourfold
+difference in beam solid angles for the two transitions could
+also enhance the observed TB(J = 2-1)/TB(J = 1-0) ratio by an
+amount similar to that caused by the optical depth effect. The
+spectra of different transitions can be compared reliably only if
+they are observed with similar telescope beamwidths. Otherwise, the two observations probe different volumes of gas, so
+that the beam dilution effect is unavoidable.
+The above-mentioned optically thin emission and the coupling factor pinpoint difficulties in acquiring the true ratio of the
+lines, and therefore the pertinent interpretation of the physical
+conditions of the emitting gas. To clarify the possible ambiguities, we attempted to remove the differing beam size effect
+by mapping the J = 2-1 emission in the region covered by the
+J = 1-0 beam as described earlier, and to estimate the optical
+depth of the emission through the comparisons of ` 2C0 and
+1 ~ observations, which will be described later.
+
+4.1.1. NGC 2146
+
+According to Table 5, the 12C0 J = 2-1/f = 1-0 line ratio
+at the center 45" of NGC 2146 is about 0.95 ± 0.23, which is
+the value expected for dense, warm, and optically thick gas as
+discussed earlier in this section (see eq. [2]). If the optical
+depths of the two lines are much greater than one, the corresponding LTE excitation temperature could be as high as
+40 K.
+The results inferred from the ` 3C0 f = 2-1/f = 1-0 line
+ratio in NGC 2146 are consistent with those from the 12C0
+f = 2-1/f = 1-0 line rato in the sense that the high ~ 3C0
+f = 2-1/f = 1-0 ratio of 7.2 ± 2.0 in 45" suggests that this
+emission certainly originates from a warm and optically thin
+gas (see eq. [3]). Since the formal result is marginally higher
+(1.5 r) than the maximum theoretical value of 4, it is probable
+that optical depth and beam dilution effects have affected the
+determination of the ratio. However, in view of the remarkably
+good resemblance ofthe 12C0 f - 2-1 and 1-0 spectra, we are
+
+400 600 800 1000 1200 1400
+cz (km/s)
+
+400 600 800 1000 1200 1400
+cz (kin/s)

@@ -1,0 +1,84 @@
+THE ASTROPHYSICAL JOURNAL, 421 :434-452, 1994 February 1
+© 1994. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+A `2C0, 13C0, AND CS STUDY OF NGC 2146 AND IC 342
+SHUDING XIE, JUDITH YOUNG, AND F. PETER SCHLOERB
+Five College Radio Astronomy Observatory and Department of Physics and Astronomy, University of Massachusetts, Amherst, MA 01003
+Received 1992 September 1 ; accepted 1993 August12
+
+ABSTRACT
+We present observations of the ` 2C0 and ~ 3C0 J = 2-1 and 1-0, as well as CS J = 2-1 lines in the nuclear
+regions of NGC 2146 and IC 342, made with the 14 m FCRAO telescope. Through comparisons with radiative transfer calculations, we find that the `2C0/'3C0 J = 1-0 line ratio, in conjunction with the `3C0
+J = 2-1/f = 1-0 line ratio, provides significant constraints on the physical conditions of the bulk of molecular
+gas. The densities and temperatures in the nuclear regions of the two actively star-forming galaxies are found
+to be higher than the typical values of the disk GMCs in the Milky Way but similar to those in the molecular
+clouds of the Galactic center. The derived physical conditions of the gas depend on the abundance ratio of
+`2C0/H2 used in the model calculations. With 12C0/H2 = iO~ and 12C0/13C0 = 60, the average temperature in the nuclear region of NGC 2146 is estimated to be around 55 K, and the average density is about
+2 x iO'~ cm ~. The average tempeature and density ascertained in the nuclear region of IC 342 are lower than
+those in NGC 2146, with T `~` 25 K and n(H2) `~ 4 x iO~ cm ~. In spite of the difference in the physical conditions of these two galaxies, the values of the N(H2)/I~0 conversion factor, which depends on the ~/~i~)/T~0
+ratio, seem to be within a factor of 2 of the Galactic value at the centers of the two galaxies, provided that
+they have the same CO abundance. CS f = 2-1 emission is detected toward the centers of NGC 2146 and IC
+342, confirming the conclusion reached in previous works that a large amount of dense gas (with n[H2] ~ iO~
+cm 3) exists in the centers of many galaxies.
+Subject headings : galaxies : individual (NGC 2146, IC 342) galaxies : ISM galaxies : nuclei
+galaxies : spiral
+
+1. INTRODUCTION
+
+Knowledge of the physical conditions of the interstellar gas
+in galaxies is fundamental to understanding the processes of
+stellar and galactic evolution since these conditions determine
+the nature of star formation. Due to the difficulties of observing
+molecular hydrogen emission on the ground, the physical conditions of the molecular gas are mainly inferred from observations of trace molecules such as CO and CS. In view of the fact
+that rotational lines of different molecules usually have either
+different excitation requirements or opacities, the physical conditions ascertained by a multiline study are needed to provide
+a more complete view of the interstellar medium. In this paper
+we present observations of the nuclear regions of the galaxies
+NGC 2146 and IC 342 in 12C0 and `3C0 J = 2-1 and 1-0, as
+well as CS J = 2-1 lines, using the FCRAO 14 m telescope. We
+show here the first `2C0 and 13C0 J = 2-1 spectra in the
+center and disk of NGC 2146, and report the first detection of
+CS J = 2-1 emission from NGC 2146.
+NGC 2146 is a peculiar Sab spiral galaxy. Its complex
+optical morphology (Pease 1920; de Vaucouleurs 1950; Bevenuti, Capaccioli, & D'Odorico 1975; Young et al. 1988a;
+Young, Kleinmann, & Allen 1988b) and strong nuclear radio
+continuum and CO emission (Condon et al. 1982; Young et al.
+1988a; Solomon & Sage 1988) suggest that it is experiencing a
+phase of violent star-forming activity. IC 342 is a nearby luminous Scd spiral galaxy. Strong CO, infrared, and radio continuum emission from the nuclear region of IC 342 (e.g., Morris &
+Lo 1978; Becklin et al. 1980; Knapp et al. 1980; Rickard &
+Palmer 1981 ; Young & Scoville 1982; Turner & Ho 1983;
+Hayashi et al. 1986; Eckart et al. 1990; Sage & Solomon 1991)
+indicate enhanced star-forming activity, while interferometric
+`2C0 f = 1-0 observations disclose bar or armlike structures
+
+434
+
+near the nucleus, along the dust lane in the NS direction (Lo et
+al. 1984; Ishizuki et al. 1990).
+IRAS data reveal that the global average dust temperatures
+TD(IRAS), as derived from the IRAS ~6O ~/~m flux density
+ratio, are different in these two galaxies, with a relatively high
+dust temperature of 46 K in NGC 2146 and a moderate dust
+temperature of 37 K in IC 342. On a smaller scale (50") at the
+center, the dust temperature can in principle be derived from
+KAO observations of the 50-100 1um flux density ratio
+(Rickard & Harvey 1984), but the uncertainties in the dust
+temperatures are too large to make conclusions about temperature gradients.
+Our multiline data are used to estimate the average temperature and density of the molecular gas at the centers of
+these two galaxies. The physical conditions are important in
+establishing the conversion factor between the H2 mass and
+CO luminosity. The theoretical, empirical, and observational
+bases for the use of CO as a tracer of H2 has been discussed in
+many papers (e.g., Sanders, Solomon, & Scoville 1984;
+Dickman, Snell, & Schloerb 1986; Scoville & Sanders 1987;
+Solomon et al. 1987; Young & Scoville 1991). Several studies
+(e.g., Dickman et al. 1986; Solomon et al. 1987) have indicated
+that, under the assumptions that the emitting clouds are virialized and the cloud average CO brightness temperatures, radii,
+and densities vary independei~tl~' of each other, the conversion
+factor is proportional to ~/n(H 2)/TCO, where n(H2) is the mean
+density of the molecular clouds and TCO is the peak brightness
+temperature in the CO J = 1-0 line. The empirical virial
+mass-CO luminosity relation determined from CO observations in the disk of the Galaxy provides a calibration (Solomon
+et al. 1987), and the conversion factor is found to be fairly
+constant over the region of 2-10 kpc in the inner Galaxy

@@ -1,0 +1,56 @@
+444
+
+XIE, YOUNG, & SCHLOERB
+
+Vol. 421
+
+FIG. 8.-Comparisons of central 12C0,
+synthesized spectra (see text).
+
+convinced that the beam dilution factor has been adequately
+removed from the five-beam-averaged J = 2-1 spectrum, and
+we believe that the measured high ~ 3C0 J = 2-1/f = 1-0 line
+ratio is due to baseline uncertainty. This conclusion is supported by an analysis of the central ~ 3C0 spectrum, to be
+presented below after the `2C0/'3C0 line ratios have been
+discussed.
+4.1.2. IC 342
+
+At the center of IC 342, the 12C0 emission might come from
+a partially optically thin gas. The ratio of `2C0 J = 2-1 and
+1-0 emission is 1.1 ± 0.3 from our data. It is in good agreement
+with Eckart et al. (1990), who also find a ratio of 1.1 ± 0.1 at
+the center position of IC 342, although the coordinates differ
+slightly from ours. An alternative explanation is that the emission could originate from a warm, optically thick gas with the
+J = 2-1 line sampling a hotter component (Eckart et al. 1990).
+Unlike NGC 2146, the ratio of `3C0 J = 2-1/f = 1-0 is low
+in IC 342. It is only about 1.4 ± 0.4 at the center, which is far
+lower than the expected value of 4 for a warm and optically
+
+thin gas. Eckart et al. (1990) obtained a similarly lower ratio of
+1.0 ± 0. 1 at the center of IC 342. The estimated excitation
+temperature in the LTE approach is `~ 15 K, assuming the
+1 ~ emission lines are optically thin.
+
+4.2. 12C0/13C0 Ratio
+The advantage of using both 12C0 and ` 3C0 data to determine physical conditions in molecular clouds (Snell et al. 1984)
+is that the optical depth of the 12C0 emission can be estimated
+from the `2CO/' 3C0 intensity ratio by taking the LTE
+approach and assuming that both lines originates in the same
+region, with only the relative calibration of the two lines
+needed.
+When both ` 2C0 and ` 3C0 emission have been observed,
+the LTE analysis is generally given under the assumption that
+all levels of each isotope possess a common excitation temperature and the excitation temperatures of the two isotopes
+are equal and close to the kinetic temperature. Therefore, the
+radiation temperature ratio of `2C0 and 13C0 is given in
+
+1.5
+
+.5
+
+1
+
+-200 0 200
+cz (km/s)
+
+13C0, and CS emission profiles in IC 342. The 45" 12C0 and 13C0 J = 2-1 spectra displayed are the five-beam

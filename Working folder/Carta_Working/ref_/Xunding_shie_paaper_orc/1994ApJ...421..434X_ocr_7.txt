@@ -1,0 +1,329 @@
+440
+
+XIE, YOUNG, & SCHLOERB
+
+Vol. 421
+
+TABLE 4
+
+
+
+
+
+OBSERVED
+
+Lmu~ INTENSITIES AT CENTER
+
+
+
+
+
+REGION
+
+
+INTEGRATED Lm~ INTENSITI
+
+ES (K km s 1)
+
+
+
+
+
+I('2C0)
+
+I(13C0)
+
+CS
+
+
+
+
+
+
+CS
+
+
+N~r~u~
+
+SAMPLED
+
+1-0
+
+2-1 1-0
+
+2-1
+
+2-1
+
+
+(1)
+
+(2)
+
+(3)
+
+(4) (5) `
+
+(6)
+
+(7)
+
+
+NGC 2146 
+
+23"
+45"
+
+. . .
+
+61.4 ± 6.3
+. . .
+
+123.3 ± 27.4 (a) . . .
+58.1 ± 14.3 (b) 3.7 ± 0.6
+65.0 ± 13.7 (c) . . .
+
+32.1 ± 8.4 (a)
+26.8 ± 8.3 (b)
+25.5 ± 6.6 (c)
+
+...
+
+...
+
+...
+
+.
+
+
+53"
+
+. . .
+
+. . . . . .
+
+. . .
+
+2.9 ± 0.5
+
+
+IC 342 
+
+23"
+45"
+
+53"
+
+. . .
+
+71.5 ± 7.3
+. . .
+
+. . .
+
+120.8 ± 27.3 (a) . . .
+75.9 ± 20.1 (b) 6.9 ± 0.9
+75.3 ± 14.9 (c) . . .
+. . . . . .
+
+14.2 ± 3.8 (a)
+9.3 ± 4.4 (b)
+8.3 ± 2.7 (c)
+. . .
+
+...
+
+...
+
+...
+
+1.5 ± 0.3
+
+Noms.-AI1 integrated intensities are defined as I = J TMB dv. Col. (1) Galaxy name. Col. (2) Central region
+effectively sampled by observing beam(s). Col. (3) `2C0 J = 1-0 integrated intensity obtained by 45" beam. Col. (4)
+`2C0 J = 2-1 integrated intensity, including (a) single beam 23" intensity and (b) five-beam-averaged 45" intensity
+using equal weighting factors or (c) five-beam 45" intensity by convolving the J = 2-1 data to 45" resolution of
+J = 1-0 data. Col. (5) `3C0 J = 1-0 integrated intensity obtained by 45" beam. Col. (6) `3C0 J = 2-1 integrated
+intensity, including (a) single beam 23" intensity and (b) five-beam averaged 45" intensity using equal weighting
+factors or (c) five-beam 45" intensity by convolving the J = 2-1 data to 45" resolution of J = 1-0 data. Col. (7) CS
+J = 2-1 integrated intensity obtained by single 53" beam.
+
+using 12CO interferometry (Jackson & Ho 1988; Young et al.
+1988a). In IC 342 strong emission is found along the NE-SW
+direction (position angle of 20°). The emission has been
+revealed to be a barlike structure by the interferometric map
+(Lo et al. 1984) and resolved into a pair of parallel narrow CO
+ridges associated with dust lanes at higher resolution (Ishizuki
+et al. 1990). Perpendicular to the NE-SW direction, the emission drops significantly from the center, with more on the
+northwest side than on the southeast side. As was found for
+NGC 2146, the 12C0 J = 2-1 emission in IC 342 is more
+symmetric than the J = 1-0 emission, although both are centrally peaked. The J = 1-0 spectrum obtained at 23" NE of the
+center of IC 342 is slightly weaker, but of similar strength to
+the central spectrum. This is consistent with the Owens Valley
+Millimeter-Wave Interferometer J = 1-0 map (7" resolution;
+
+
+TABLE 5
+
+Lo et al. 1984) and the Nobeyama J = 1-0 map (15"
+resolution; Hayashi et al. 1986), which both show two peaks of
+similar strength separated by `~ 1 5", though our 45" J = 1-0
+beam cannot resolve them.
+In the following analysis, we will concentrate on the central
+45" of each galaxy, the size of the J = 1-0 beam, to compare
+the four measurements of ~ 2C0 and ~ 3C0 emission. Figures 7
+and 8 show the comparisons of the central spectra of' 2C0 and
+1 3CO J = 2-1 and 1-0 lines, as well as the CS J = 2-1 line in
+NGC 2146 and IC 342, respectively. The five-beam-averaged
+45" spectrum of J = 2-1 is used when the J = 2-1 and 1-0
+spectra of the same species are compared, and the central 23"
+observations are presented in the comparison of `2C0 and
+`3CO J = 2-1 data. In both galaxies there is a remarkable
+similarity in line profiles for the `2CO J = 2-1 and J = 1-0
+
+
+
+
+
+Lm~x RATIOS AT C
+
+ENTER
+
+
+
+
+REGION
+
+
+
+Lir~a RATIOS
+
+
+
+
+I(12C0)
+
+I(13C0)
+
+I('2C0)/I(13C0)
+
+I('2C0)/I('3C0)
+
+12C0/CS
+
+N~.am
+
+SAMPLED
+
+2-1/1-0
+
+2-1/1-0
+
+1-0
+
+2-1
+
+1-0/2-1
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+NGC2146 
+
+23"
+45"
+
+,-.~50,,
+
+...
+
+0.95 ± 0.25
+...
+
+...
+
+...
+
+7.2 ± 2.5 (a)
+4.1±1.9(b)
+...
+
+...
+
+16.7 ± 3.2
+...
+
+...
+
+3.9 ± 1.3 (c)
+2.2 ± 0.9 (d)
+...
+
+...
+
+...
+
+...
+
+...
+
+21.2±4.3
+
+IC 342 
+
+23"
+45"
+
+`~`50~'
+
+. . .
+
+1.06 ± 0.30
+...
+
+...
+
+. . .
+
+1.4 ± 0.7 (a)
+1.3±0.6(b)
+...
+
+. . .
+
+10.4 ± 1.7
+...
+
+...
+
+8.5 ± 3.0 (c)
+8.2 ± 4.4 (d)
+...
+
+...
+
+...
+
+...
+
+...
+
+47.3 ± 10.6
+
+Norus.-Col. (1) Galaxy name. Col. (2) Central region effectively sampled by observing beam(s). Col. (3) `2C0 J = 2-1/
+J = 1-0 line ratio over 45" region using the five-beam-averaged 45" 12C0 J = 2-1 intensity. Col. (4) 13C0 J = 2-1/J = 1-0
+line ratio, including (a) using five-beam-averaged 45" `3C0 J = 2-1 intensity and (b) derived by using `2C0 J = 2-1, 1-0 and
+`3C0 J = 1-0 data (see § 4.2). Col. (5) `2C0/13C0 J = 1-0 line ratio over 45" region. Col. (6) `2C0/13C0 J = 2-1 line ratio,
+including (c) single beam 23" line ratio and (d) five-beam-averaged 45" line Ratio. Col. (7) `2C0(1-0)/CS(2-1) line ratio over
+50" region.

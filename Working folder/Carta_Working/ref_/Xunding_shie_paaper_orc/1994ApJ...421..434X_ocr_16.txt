@@ -1,0 +1,128 @@
+No. 2, 1994
+
+STUDY OF NGC 2146 AND IC 342
+
+449
+
+correlation between the ~ 2CO/1 3C0 ratio and the average dust
+temperature, especially at lower dust temperatures.
+To investigate the link between the two above-mentioned
+phenomena, in Figure lOa we plot the observed `2C0/'3C0
+J = 1-0 line ratios for the central `~ 50" in 13 galaxies including those presented in this paper and the data published elsewhere (Young & Sanders 1986; Sage & Isbell 1991 ; Aalto et a!.
+1991) as a function of dust temperature in a 50" beam from
+observations by Rickard & Harvey (1984). On the same plot,
+we also show the radiative transfer calculation results of ~ 2C0/
+1 ~ j = ~_Ø line ratio as a function of gas temperature, with
+the gas density marked along each curve. The solid curves are
+calculated by using a 12CO/'3CO fractional abundance of 89,
+and the dashed curves are those with 12C0/'3C0 = 60. The
+12C0/H2 fractional abundance is iO~ for both cases. Being
+restricted by the small numbers of available 50" dust ternperatures, the 12C0/1 3C0 J = 1-0 data points presented in
+Figure lOa only consist of a small fraction of the published
+12c0113c0 J = 1-0 ratios at the centers of galaxies. Statistically, it will be more convincing to plot all of the `2CO/
+1 ~ j = ~_Ø ratios as a function of the dust temperature on
+50" scale. Since the relative dust temperature changes between
+
+TD(IRAS) and TD(5O") are less than 15% for 1 1 out of the 13
+galaxies, it is likely that making use of the global dust ternperature TD(IRAS) instead of TD(5O") may not change the statistical relationship between the 12C0/'3C0 ratio and the dust
+temperature although, ideally, the 12C0/1 3C0 ratio needs to
+be determined throughout each galaxy for comparison with
+the global dust temperature. Therefore, in Figure lOb, we show
+the same plot as Figure lOa using all of the available central
+12c0/13c0 J = 1-0 data except that the dust temperatures
+used are the global dust temperatures derived from the IRAS
+60-100 ~im flux density ratios. The two open circles in Figures
+lOa and lOb are our observed `2C0/13C0 J = 1-0 data in
+NGC 2146, plotted against either TD(5O") or TD(IRAS), and the
+two filled circles without error bars are the same ratios plotted
+against the derived gas temperature in these two galaxies. The
+comparisons indicate that our 12C0/13C0 J - 1-0 data fit in
+well with the observational data of other galaxies, implying
+that the gas densities in the nuclei of the galaxies studied are
+also likely to be iO~ cm ~. It is also seen that although the gas
+temperature may not be directly compared with the dust ternperature, the dependences of the observed 12C0/'3C0
+J = 1-0 line ratio on dust temperature and the calculated
+
+100
+
+I I I I I I I I ~ I I I I I I I I I I I I I
+
+
+I [`2c0J/[H2J = 10~
+
+- [12C0]/[13c0] = 89
+
+[12C0J/[13c0J = 60
+
+100
+
+80 -
+
+60 -
+
+40 -
+
+80
+
+
+60
+
+
+40
+
+
+20
+
+20
+
+
+0
+
+,~4
+
+~.,
+
+0 0
+VP
+
+~
+~
+-D
+
+0 0
+~ DJL)
+
+
+0
+
+80 100 120 0 20 40 60
+T (K)
+FIG. lOb
+
+FIG. lO.-(a) Observed `2C0/13C0 J = 1-0 integrated line ratio vs. the 50" dust temperature derived by Rickard & Harvey (1984). Coding of the points is as
+follows: open circles for data in this paper, open squares for data in Young & Sanders (1986), open triangles for data in Sage & Isbell (1990), and asterisks for data in
+Aalto et al. (1991). The curves represent the calculated ~ 2C0/' 3C0 line ratio as function of gas temperature, from the radiative transfer calculations. The numbers
+marked near the solid curves are the gas densities used in the calculations. The dashed curves were obtained by using the same set of gas densities for different
+12C0/13C0 abundance ratio. The two filled circles without error bars are the observed 12C0/13C0 ratios in NGC 2146 and IC 342 plotted against the derived gas
+temperature. (b) Same as Fig. (a), but using the global IRAS dust temperature.
+
+
+
+
+
+I I ~
+
+I I
+
+
+I I
+
+0 20 40 60
+T (K)
+FIG. lOa
+
+
+I I
+
+
+80 100 120

@@ -1,0 +1,94 @@
+STUDY OF NGC 2146 AND IC 342
+
+437
+
+The calibration technique used at FCRAO is the chopper
+wheel method which has been commonly used at millimeter
+wavelengths to compensate for atmospheric attenuation and
+certain telescope losses. The antenna temperature obtained by
+this method, T~, has not been corrected for the losses which
+scatter power out of the beam, such as spillover losses from a
+Cassegrain system and forward scattering losses from the
+antenna and randome (Schloerb & Snell 1985; R. Snell 1985,
+private communication; Snell & Schloerb 1986). A quantity T~
+has been suggested by Kutner & Ulich (1981) which is corrected for the power removed from the beam beyond a certain
+solid angle, using a so-called forward scattering and spillover
+efficiency ~ T~ = T~/~fSS. At FCRAO, the solid angle subtended by the Moon is adopted to determine flfss from lunar
+observations, yielding an ~lfss value of 0.71 at 3 mm and a value
+of 0.48 at 1 mm during our observing run (R. L. Snell 1988,
+private communication).
+The calibration of data is very important in our study
+because we intend to compare the intensities of different transitions within each galaxy to estimate the excitation temperature and density of the gas. Based on the observations of
+Jupiter, the average main-beam efficiencies at FCRAO were
+measured to be 0.55 at 3 mm and 0.22 at 1 mm during our
+observing runs, by adopting a brightness temperature TB of 174
+K at 115 GHz and a value of 165 K at 230 GHz.
+To find the effective source radiation temperature TR, which
+approximately equals the true brightness temperature of the
+
+
+q
+L()
+* .4
+
+s~
+
+
+600 1200
+
+source in the Rayleigh-Jeans approximation (hv 4 kT), we
+must ascertain the coupling between the antenna and the
+source. For a source which fills the main diffraction beam but
+not the error pattern, the appropriate beam coupling efficiency
+to use is ;1~ = 1B/lfss, where lB ~5 the main beam efficiency of
+the antenna. In this case, the effective source radiation temperature TR ~5 simply TR ~ T~/flB. Since the true
+source brightness distribution and the antenna beam pattern
+are not sufficiently well known, we will adopt the main-beam
+efficiency ~lB to correct the forward scattering and spillover loss
+as well as the coupling effect. All line intensities are given in
+terms of the Rayleigh-Jeans main-beam brightness temperature, TMB, a quantity which is now frequently used in extragalactic studies.
+3. OBSERVATIONAL RESULTS
+
+The observed spectra of the four transitions-12C0 and
+l3~~ J = 2-1 and 1-0--in the nuclear regions of NGC 2146
+and IC 342 are shown in Figures 3 and 4 with the R-band
+image of each galaxy displayed at the center. In order to facilitate comparison of the spectra of the different isotopes, the
+`3co data have been scaled by a factor of 5. For NGC 2146,
+the four species exhibit fairly symmetric distributions and kinematics relative to the center.
+To solve the problem of the different beam sizes employed
+for the J = 2-i and 1-0 observations, we observed the central
+J = 2-1 location and four adjacent locations (see Fig. 1) to
+
+:L 
+
+
+
+
+H-144+1-~11Th+H
+
+
+:~~;:i
+
+c*z (km/s) c*z (km/s)
+FIG. 3.-Spectra of `2CO and `3C0 J = 2-1 and 1-0 emission along the major (vertical) and minor (horizontal) axes ofNGC 2146. The central CCD image was
+observed with the now-retired No. 1 0.9 m telescope ofKPNO in 1986 using an R filter(Young et al. 1988b).
+
+`2c0 J=1-o _____
+
+12c0 J=2-1
+
+600 1200
+
+I
+
+600 1200
+
+p~_~
+
+
+
+T~sit~s.it~
+
+13c0 J=1-o
+
+`3co J=2-1

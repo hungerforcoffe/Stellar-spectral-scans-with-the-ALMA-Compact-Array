@@ -1,0 +1,169 @@
+1
+IC ~ ~ ~ (rB/rS)2*
+
+442
+
+150
+
+_12c0 J=1-0
+
+XIE, YOUNG, & SCHLOERB
+30
+
+- Major Axis
+--. Minor Axis
+
+100 -
+
+
+50
+
+
+0 -I
+
+Vol. 421
+
+
+
+
+In
+E
+
+
+In
+E
+
+_I I I I I I I I I I f I I I I I I I II1
+
+- 13c0 J=1-0
+
+
+20- -
+
+
+10~ ~
+
+
+.~ I I I I I I I I ~ I , ~ i ~ I i i i i
+
+I I I I I I I I I I I I III
+
+
+
+
+
+150
+
+
+100
+
+
+50
+
+
+0
+
+1 .5 0 -.5 -1
+Distance from center (arcmin)
+
+I I I I I I ~ I I I I I I I I I I I I I I
+_12c0 J=2-1 -I
+
+
+-I I II I I I I I I I I I I I I I I I I I
+
+1 .5 0 -.5
+Distance from center (arcmin)
+
+0
+
+
+60
+
+
+40
+
+
+20
+
+
+0
+
+In
+E
+
+1 .5 0 -.5 -1
+Distance from center (arcmin)
+
+I I I I I I I I I I ~ I I I I I I I I I I
+~ 13c0 J=2-1
+
+
+I I I I I I I I I I I I I I I I I I I I I
+
+-1
+
+FIG. 6.-Radial distributions of `2C0 and ` 3C0 J = 1-0 and 2-1 integrated intensities for IC 342. The data points at positive distances represent the emission
+from the east of the galaxy, and the data points at negative distances represent the emission from the west.
+
+
+1 .5
+
+0
+
+-.5 -1
+
+Distance from center
+
+(arcmin)
+
+involved in equation (4) allow us to evaluate the upper limit of
+the J = 2-1/f = 1-0 line ratio. At very high excitation ternperatures the ` 2C0 J = 2-1 line could be stronger than the
+J = 1-0 line by a factor of up to 3-4 owing to the greater
+opacity of the higher frequency line.
+However, the observed radiation ternperature of a line in a
+direction on the sky depends on many factors besides the
+intrinsic source intensity and the line opacity. One important
+factor is the coupling of the antenna to the source. The difference in the coupling factor due to different beam sizes must be
+taken into account in calculating the line ratio of different
+transitions. Generally speaking, the antenna power pattern
+and the source size vary with the frequency of emission. Therefore, the observed source antenna temperatures are modified
+differently for different transitions.
+According to Kutner & Ulich (1981), the coupling of
+antenna to source can be expressed as
+
+c - SS~~s P~(r, O)B~(r, O)r dr dO
+Jc ~j47t P~(r, O)r dr dO ` ()
+
+where P~(r, 0) is the normalized power pattern of the antenna,
+B~(r, 0) is the normalized source brightness distribution, and ~
+is the solid angle subtended by the source. In the simpler case
+of azimuthal symmetry, the coupling is mainly affected by the
+relative sizes of the antenna beam and the source. To evaluate
+this coupling factor, we assume a Gaussian antenna power
+
+pattern P~(r, 0) oc exp [ - 4 ln 2(r/rB)2] and a Gaussian source
+distribution Bjr, 0) oc exp [ - 4 ln 2(r/r~)2], with rB the halfpower beam width of the antenna and r~ the half-intensity size
+of the source, both in the units of arcseconds. The resultant
+coupling is then dependent on the ratio of rB/rS, becoming
+
+(6)
+
+If the source is extended (i.e., r5 ~ rB) or the source size is
+comparable to the antenna beam (r5 ~ rB), the coupling effect
+will be nearly the same for any transition. However, if the
+source is much smaller than the beam size (r~ 4 rB), we will
+have
+
+fe ~ (r~/rB)2 . (7)
+For observations of different CO transitions with different
+beam sizes, the observed ratio of TR(2-l)/TR(l-O) (eq. [4])
+should therefore include the following factor:
+- [r~(J_=_2-1)12[rB(J_=_1_O)12 (8)
+f~ - [r(J = 1-0)] [rB(J = 2-1)]
+
+Since rB(J = 1-O)/rB(J = 2-1) approximately equals 2 for the
+same telescope, TR(J = 2-1)/TR(J = 1-0) could be as high as 4
+even for optically thick emission, provided that the source sizes
+for J = 2-1 and J = 1-0 are similar to each other and smaller
+than the J = 2-1 beam size.

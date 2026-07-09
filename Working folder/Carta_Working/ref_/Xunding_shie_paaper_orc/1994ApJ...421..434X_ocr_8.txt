@@ -1,0 +1,195 @@
+No. 2, 1994
+
+STUDY OF NGC 2146 AND IC 342
+
+441
+
+transitions which sample the same region. The `2C0 and CS
+line profiles agree well, while the `2C0 and `3C0 line profiles
+look slightly different.
+
+4. DATA ANALYSIS
+
+4.1. J = 2-1/J = 1-0 Ratio
+Two effects should be distinguished when comparisons
+between different transitions of the same species are made. One
+effect originates from source-beam coupling, and the other is
+caused by optical depth. Both effects may influence the line
+ratio.
+According to radiative transfer theory, the radiation temperature ratio of the J = 2-1 to 1-0 lines of a species is given
+by
+TR(2-1) _ [J21(T~) - J21(Tbb)] 1 - e_t21
+TR(1-O) ~ [J10(T~) - Jlo(Tbb)] 1 -
+
+with t the optical depth of the line, 7,~ the excitation temperature, Tbb the cosmic background temperature of 2.75 K,
+and J(T) the equivalent Rayleigh-Jeans temperature which is
+related to the excitation temperature or the cosmic background temperature by J(T) = (hv/k)/[exp (hv/kT) - 1]. For
+the optically thick case, `r ~ 1,
+TR(2-1) ~ J21(T~) - J21(Tbb)
+TR(1-O) ~ J10(T~) - Jlo(Tbb)'
+
+TR(2-l) ,~, J21(~;~~) - J2~(Tbb) (1 - e_hv2h/kT~o)
+TR(l-O) ~ ~10(~~) - Jlo(Tbb) 2 (hvlO/kT _ 1)
+
+E
+
+150
+
+
+100
+
+
+50
+
+
+0
+
+I ~ ~ ~ ~ I ~ ~ ~ ~ I I I I I I I I I I I
+_12c0 J=1-0 - Major Axis
+~ --. Minor Axis
+
+
+-I i i i i I i i ~ i I i i i i I i i i ~ 1-
+
+1
+
+
+I I ~
+. 13c0
+
+I ~ I ~ ~ ~ ~ I ~ ~ ~ ~ I I I I
+J=1-0
+
+I
+
+-
+
+
+
+
+
+*1
+
+i i i i I i i i i I i i i ~ I i i i
+
+ii-
+
+1
+
+
+.5 0 -.5
+Distance from center (arcmin)
+
+-1
+
+.5 0 -.5
+Distance from center (arcmin)
+
+150
+
+-1
+
+30
+
+
+20
+
+
+10
+
+
+0
+
+
+60
+
+
+40
+
+
+20
+
+
+0
+
+Cl)
+
+
+Cl)
+
+100
+
+50
+
+0
+
+
+I
+
+
+I
+
+I I I I
+
+I ~ ~ ~ ~
+
+I
+
+
+13c0
+
+J=2-1
+
+
+-
+
+
+i
+
+i i L
+
+i i i ~
+
+I i
+
+i i
+
+i I
+
+t
+
+i
+
+I~
+
+1 .5 0 -.5 -1
+Distance from center (arcmin)
+
+-1
+
+1 .5 0 -.5
+Distance from center (arcmin)
+FIG. 5--Radial distributions of 12C0 and 13C0 J = 1-0 and J = 2-1 integrated intensities for NGC 2146. The data points at positive distances represent the
+emission from the east of the galaxy, and the data points at negative distances represent the emission from the west.
+
+with a maximum ratio of 1 at very high excitation temperatures. A general method of estimating the excitation temperature in the case of optically thick emission is to utilize the
+LTE (local thermodynamic equilibrium) analysis based on the
+assumption of a common excitation temperature for all the
+transitions. This LTE excitation temperature is obtained from
+12C0 observations when the beam filling factor is known
+because `2C0 emission is normally optically thick. For external galaxies with unknown beam filling factors, the LTE excitation temperature is evaluated from the J = 2-1/f = 1-0 line
+ratio. It is expected to be ~` 10 K at a ratio of 0.79 and `~` 40 K
+at a ratio ofO.95. For the optically thin case, t ~ 1,
+TR(2-1) ~ J21(T~) - J21(Tbb) x~ (3)
+TR(1-O) ~ J10(T~) - Jlo(T~b) ~
+
+(1) Since t~, j _ ~ oc (J/2J + 1)Nj(ehvJ.J_ l/kTex~'~ 1 _ 1), where N, is
+the column density of the molecules in the upper of the two
+levels relevant to the line and J is the rotational quantum
+number of the upper level, the radiation temperature ratio is
+thus
+
+(4)
+
+on the condition that the two lines originate from the same
+(2) emitting region and possess the same LTE excitation temperature ~ Although physically unrealistic, the assumptions

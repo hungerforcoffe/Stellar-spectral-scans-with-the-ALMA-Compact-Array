@@ -1,0 +1,329 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{pdflscape}
+\usepackage{natbib}
+
+\geometry{margin=2.5cm}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\title{
+    \textbf{Reporte de Avance}\\[0.5em]
+    \large Masa del Gas Molecular en Envolventes Circumestelares:\\
+    Tratamiento de la Opacidad y Revisión del Método
+}
+\author{Pablo Rojas}
+\date{\today}
+
+% ============================================================
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{Introducción y motivación}
+
+Este reporte documenta la \textbf{revisión del cálculo de la masa del gas molecular}
+($M_{\rm gas}$) en las envolventes circumestelares (CSE) de la muestra de nueve estrellas
+AGB y post-AGB. Respecto a la versión anterior, el cambio central es el \textbf{tratamiento
+físico de la opacidad} de la línea de CO: en lugar de adoptar un valor fijo y poco
+justificado ($\tau = 1$), la opacidad se deriva ahora por fuente a partir de la razón
+$^{12}$CO/$^{13}$CO observada.
+
+El reporte se enfoca en tres puntos:
+\begin{enumerate}
+    \item \textbf{Cómo se calcula} la masa y cómo se determina la opacidad (Secciones~2 y 3).
+    \item \textbf{Las complicaciones} encontradas —principalmente la elección de la abundancia
+    isotópica $^{12}$CO/$^{13}$CO— y cómo se resolvieron (Sección~3).
+    \item \textbf{Por qué el paper sugerido como referencia} (Xie, Young \& Schloerb 1994)
+    \textbf{no es aplicable} a nuestro problema (Sección~4).
+\end{enumerate}
+
+% ============================================================
+\section{Metodología del cálculo de masa}
+
+\subsection{Fórmula general}
+
+La masa de H$_2$ se obtiene a partir de la densidad de columna de CO integrada sobre
+el haz \citep{choi1993, mangum2015}:
+
+\begin{equation}
+    M_{{\rm H}_2} = m_{{\rm H}_2}\, D^2\, \Omega\, \frac{N_{\rm CO}}{f_{\rm CO}},
+    \qquad M_{\rm gas} = 1.36\,M_{{\rm H}_2},
+    \label{eq:Mmain}
+\end{equation}
+
+\noindent donde $m_{{\rm H}_2}$ es la masa de la molécula de H$_2$, $D$ la distancia,
+$\Omega$ el ángulo sólido del haz, $f_{\rm CO}=N_{\rm CO}/N_{\rm H_2}$ la abundancia de CO
+(adoptada por tipo espectral; \citealp{ramstedt2008}), y el factor $1.36$ corrige por helio.
+
+La densidad de columna se obtiene del flujo integrado de la línea, con la corrección de
+opacidad explícita:
+
+\begin{equation}
+    N_{\rm CO} = \frac{C_J(T_{\rm ex})}{D_J(T_{\rm ex})}\, W_J \cdot
+    \frac{\tau_J}{1 - e^{-\tau_J}},
+    \qquad
+    W_J = 1.222\times10^6\,\frac{I_{\rm CO}}{\nu^2\,\theta_{\rm maj}\,\theta_{\rm min}},
+    \label{eq:NCO}
+\end{equation}
+
+\noindent donde $W_J$ es la temperatura de brillo integrada [K\,km\,s$^{-1}$], $I_{\rm CO}$ el
+flujo integrado [Jy\,km\,s$^{-1}$], $C_J$ el prefactor de columna y $D_J$ la corrección de
+Rayleigh-Jeans de la transición. El ángulo sólido del haz se cancela con $W_J$, por lo que
+la masa de una fuente no resuelta no depende del tamaño del haz.
+
+\subsection{Transición utilizada por fuente}
+
+La opacidad $\tau$ pertenece a la transición en la que se mide la razón isotópica. Por ello,
+\textbf{la masa se calcula desde la transición en la que se dispone de $^{13}$CO}:
+\begin{itemize}
+    \item \textbf{CO$(1\to0)$} para las fuentes con $^{13}$CO$(1\to0)$: R~Hor, RV~Aqr, RZ~Sgr, UU~For.
+    \item \textbf{CO$(2\to1)$} para las que solo tienen $^{13}$CO$(2\to1)$: los cuatro IRAS y V510~Pup.
+\end{itemize}
+Esto mezcla transiciones entre fuentes, pero garantiza que $\tau$ y la masa sean
+\emph{autoconsistentes} (medidas en la misma línea). Los prefactores correspondientes, a
+$T_{\rm ex}=20$\,K, son:
+\begin{equation}
+    \frac{C_{10}}{D_{10}} = \frac{1.14\times10^{15}}{1.14} \approx 1.0\times10^{15},
+    \qquad
+    \frac{C_{21}}{D_{21}} = \frac{4.96\times10^{14}}{1.30} \approx 3.8\times10^{14}
+    \;\;[\text{cm}^{-2}\,(\text{K\,km\,s}^{-1})^{-1}].
+\end{equation}
+El valor para $(1\to0)$ coincide con el $1.1\times10^{15}$ del paper del grupo para
+$(3\to2)$, confirmando que la adaptación entre transiciones es correcta.
+
+% ============================================================
+\section{El tratamiento de la opacidad: complicaciones y discusión}
+
+Esta sección es el núcleo del reporte, ya que la opacidad fue la principal dificultad.
+
+\subsection{Por qué $\tau=1$ no era suficiente}
+
+En la versión anterior se adoptó $\tau_{10}=1$ (corrección $\sim 1.58$) como valor
+``moderado''. Esto es arbitrario: la corrección de opacidad va desde $1$ (delgado) hasta
+$\gtrsim 3$ (grueso), y con $\tau=3$ la masa se duplica respecto a $\tau=1$. Es decir,
+\textbf{la opacidad es uno de los sistemáticos dominantes} y no podía dejarse fija sin
+justificación. A raíz de la discusión se decidió derivarla de los datos.
+
+\subsection{Opacidad a partir de $^{12}$CO/$^{13}$CO y la relación $R \leq X$}
+
+La opacidad se estima de la razón observada $R = T(^{12}{\rm CO})/T(^{13}{\rm CO})$
+asumiendo que $^{13}$CO es ópticamente delgado y que ambas líneas comparten excitación
+\citep{ramstedt2014}:
+\begin{equation}
+    R = \frac{1-e^{-\tau_{12}}}{1-e^{-\tau_{13}}},
+    \qquad \tau_{13} = \tau_{12}/X,
+    \label{eq:tau}
+\end{equation}
+donde $X = {}^{12}$CO/$^{13}$CO es la abundancia isotópica. De aquí se obtiene una propiedad
+clave:
+\begin{equation}
+    R = X\cdot\frac{1-e^{-\tau_{12}}}{\tau_{12}} \;\leq\; X,
+    \qquad\text{con } R = X \text{ en el límite delgado } (\tau_{12}\to0).
+    \label{eq:RleqX}
+\end{equation}
+Es decir, \textbf{la razón observada nunca puede superar la abundancia real}: la opacidad
+solo \emph{baja} $R$ por debajo de $X$. Una razón observada alta es, por tanto, la firma
+directa de gas ópticamente delgado.
+
+\subsection{La complicación principal: ¿qué valor de $X$ usar?}
+
+El valor de $X$ no es observable directamente y debe adoptarse. La referencia natural es
+\citet{ramstedt2014}, que da las medianas por tipo espectral: $X=13$ (M), $26$ (S) y $34$ (C).
+\textbf{El problema, discutido en detalle, es que estas distribuciones son muy dispersas},
+especialmente para las estrellas de carbono, donde el cociente entre los percentiles 90 y 10
+es de un factor $\sim15$. Parte de esa dispersión proviene de las estrellas de tipo J
+(con $X\approx3$--$4$), que son una clase distinta; excluyéndolas, las estrellas de carbono
+normales (N-type) caen en $X\sim20$--$90$ \citep{lambert1986}. Una única mediana no es,
+entonces, representativa de una estrella individual.
+
+Esto produjo un caso aparentemente paradójico: IRAS\,06531 tiene $R=84.68$, mayor que la
+mediana de carbono $X=34$, lo que por la Ec.~(\ref{eq:RleqX}) sería ``imposible''.
+
+\subsection{Resolución: la regla \texorpdfstring{$X=\max(R,X_{\rm tipo})$}{X=max(R,Xtipo)} y la clasificación delgado/grueso}
+
+La paradoja anterior \textbf{no indica una contradicción, sino que revela el valor real de
+$X$ de esa estrella}: si $R\leq X$ siempre, entonces observar $R=84.68$ implica $X\geq84.68$.
+La mediana $34$ simplemente subestima $X$ para esa fuente, que es una estrella de carbono de
+$X$ alto (algo normal, hasta $\sim100$; \citealp{lambert1986}). Con $X\approx R$, la
+Ec.~(\ref{eq:RleqX}) da $\tau\to0$: la fuente es \textbf{ópticamente delgada}. Es decir, una
+razón alta no es un error, es la medición de un $X$ alto en gas delgado.
+
+Esto se implementa como un \textbf{piso físico} sobre la abundancia:
+\begin{equation}
+    X_{\rm estrella} = \max\!\big(R_{\rm obs},\, X_{\rm tipo}\big).
+    \label{eq:floor}
+\end{equation}
+La regla clasifica la opacidad directamente desde los datos:
+\begin{itemize}
+    \item $R$ alto (comparable o mayor que $X_{\rm tipo}$) $\Rightarrow$ \textbf{delgado} ($\tau\approx0$);
+    la masa \emph{no depende} del valor exacto de $X$.
+    \item $R$ bajo ($R \ll X_{\rm tipo}$) $\Rightarrow$ \textbf{grueso}; aquí $X$ sí importa.
+\end{itemize}
+
+\subsection{La masa como rango, no como un punto}
+
+Para las fuentes gruesas, donde $X$ afecta el resultado, en lugar de un único valor se reporta
+un \textbf{rango de masa} propagando el percentil de $X$ por tipo
+(M: $[6.5,26]$; S: $[15,45]$; C: $[20,90]$), siempre con el piso de la Ec.~(\ref{eq:floor}).
+Así, la dispersión de \citet{ramstedt2014} se convierte en una barra de error honesta en vez
+de quedar oculta en una mediana. Para las fuentes delgadas el rango colapsa al valor central,
+reflejando que ahí la incertidumbre en $X$ es irrelevante.
+
+\subsection{Sensibilidad a la temperatura de excitación}
+
+\citet{choi1993} advierte que la densidad de columna de CO$(1\to0)$ depende más de $T_{\rm ex}$
+que la de $(3\to2)$. Verificamos que, en el rango realista $T_{\rm ex}=15$--$40$\,K, la masa
+varía un factor $\sim2.4$ para $(1\to0)$ y $\sim1.6$ para $(2\to1)$, frente a $\sim1.2$ para
+$(3\to2)$. Siguiendo a \citet{cerrigone2012} —que fija el factor de columna ``dentro de un
+factor de 2''— adoptamos $T_{\rm ex}=20$\,K y reportamos esta variación como un sistemático de
+$\sim$factor 2, sin intentar ajustar $T_{\rm ex}$.
+
+% ============================================================
+\section{Por qué el método de Xie et al.\ (1994) no es aplicable}
+
+Se evaluó en detalle el trabajo de \citet{xie1994}, sugerido como referencia para el cálculo
+de masa. Se concluye que \textbf{no es aplicable a nuestro problema}, por tres razones:
+
+\begin{enumerate}
+    \item \textbf{Es un estudio de galaxias} (NGC\,2146 e IC\,342), no de envolventes
+    circumestelares. El objeto físico, las escalas y las condiciones del gas son distintos.
+
+    \item \textbf{Su método de masa es el factor de conversión $N({\rm H_2})/I_{\rm CO}$}
+    (de tipo $\alpha_{\rm CO}$ galáctico), calibrado para nubes moleculares del medio
+    interestelar. Este es precisamente el método que \emph{descartamos} para CSE, donde no es
+    válido. Nuestro cálculo usa densidad de columna por fuente (Choi/Cerrigone), que es lo
+    apropiado para envolventes circumestelares.
+
+    \item \textbf{Para la opacidad usa la misma razón $^{12}$CO/$^{13}$CO que nosotros, pero
+    asume un valor fijo $X=60$} (valor galáctico). Es decir, \textbf{no resuelve} la dificultad
+    central —cómo fijar $X$ sin un valor disperso y poco representativo—, y además el valor que
+    usa no aplica a estrellas evolucionadas, donde $X$ depende fuertemente del tipo y es mucho
+    menor.
+\end{enumerate}
+
+\noindent En resumen, el paper de \citet{xie1994} \textbf{confirma} que el diagnóstico correcto
+de opacidad es la razón $^{12}$CO/$^{13}$CO (lo que ya hacíamos), pero \textbf{ni su método de
+masa ni su valor de $X$ son trasladables} a nuestra muestra. La referencia metodológica
+adecuada para masa con líneas bajas de CO en objetos evolucionados es \citet{huggins1996}
+(que usa CO$(1\to0)$ y $(2\to1)$ en nebulosas planetarias) junto con \citet{mangum2015}.
+
+% ============================================================
+\section{Resultados}
+
+La Tabla~\ref{tab:mass} presenta la masa de gas con su rango por opacidad y la clasificación
+delgado/marginal/grueso resultante. El error $\sigma/M$ es el estadístico (flujo $+$ distancia);
+el rango $[M_{\rm lo},M_{\rm hi}]$ refleja el sistemático por la abundancia $X$.
+
+\begin{landscape}
+\begin{table}[h]
+\centering
+\caption{Masa de gas molecular con tratamiento de opacidad. $R$ es la razón
+$^{12}$CO/$^{13}$CO observada; $X_{\rm med}$ la abundancia central por tipo (con piso
+$X\geq R$); $\tau$ la opacidad central; $M_{\rm gas}$ el valor central y
+$[M_{\rm lo},M_{\rm hi}]$ el rango por el percentil de $X$. Régimen: T=delgado, M=marginal,
+G=grueso. $T_{\rm ex}=20$\,K.}
+\label{tab:mass}
+\begin{tabular}{llcccccccl}
+\toprule
+Fuente & Trans. & Tipo & $D$ (pc) & $f_{\rm CO}$ & $R$ & $X_{\rm med}$ & $\tau$ &
+$M_{\rm gas}$ ($M_\odot$) & $[M_{\rm lo},M_{\rm hi}]$ ($M_\odot$) / régimen \\
+\midrule
+IRAS 06531$-$0216 & 2$-$1 & C & 1158 & $1.0\!\times\!10^{-3}$ & 84.7 & 34 & 0.00 & $5.98\times10^{-4}$ & $[5.98,\,6.36]\times10^{-4}$ \;\;(T) \\
+IRAS 07145$-$1428 & 2$-$1 & C & 4145 & $1.0\!\times\!10^{-3}$ & 26.7 & 34 & 0.52 & $4.28\times10^{-3}$ & $[3.33,\,11.4]\times10^{-3}$ \;\;(M) \\
+IRAS 07180$-$1314 & 2$-$1 & M & 1168 & $1.0\!\times\!10^{-3}$ & 4.95 & 13 & 2.72 & $2.28\times10^{-4}$ & $[1.09,\,4.60]\times10^{-4}$ \;\;(G) \\
+IRAS 08500$-$3254 & 2$-$1 & M & 1527 & $2.0\!\times\!10^{-4}$ & 4.42 & 13 & 3.18 & $3.11\times10^{-2}$ & $[1.49,\,6.25]\times10^{-2}$ \;\;(G) \\
+R Hor             & 1$-$0 & M &  231 & $2.0\!\times\!10^{-4}$ & 39.1 & 13 & 0.00 & $1.00\times10^{-3}$ & punto \;\;(T) \\
+RV Aqr            & 1$-$0 & C &  635 & $2.0\!\times\!10^{-4}$ & 27.1 & 34 & 0.49 & $2.68\times10^{-2}$ & $[2.12,\,7.18]\times10^{-2}$ \;\;(M) \\
+RZ Sgr            & 1$-$0 & S &  424 & $6.0\!\times\!10^{-4}$ & 4.67 & 26 & 6.25 & $7.03\times10^{-3}$ & $[4.04,\,12.2]\times10^{-3}$ \;\;(G) \\
+UU For            & 1$-$0 & M &  615 & $2.0\!\times\!10^{-4}$ & 18.8 & 13 & 0.00 & $6.41\times10^{-3}$ & $[6.41,\,8.98]\times10^{-3}$ \;\;(T) \\
+V510 Pup          & 2$-$1 & post-AGB & 436 & $4.0\!\times\!10^{-4}$ & 12.1 & --- & 1.00$^{\dagger}$ & $6.65\times10^{-4}$ & provisional \\
+\bottomrule
+\end{tabular}
+\\[0.3em]
+{\footnotesize $^{\dagger}$ V510 Pup (post-AGB) no tiene $^{12}$CO/$^{13}$CO publicado
+(fuera de la muestra de \citealp{ramstedt2014}); se adopta $\tau=1$ provisional. Su razón
+observada ($12.1$) es un límite inferior de $X$, sugiriendo gas casi delgado.}
+\end{table}
+\end{landscape}
+
+\noindent De las nueve fuentes: \textbf{3 son ópticamente delgadas} (IRAS\,06531, R\,Hor,
+UU\,For), donde la masa no depende de $X$; \textbf{2 son marginales} (IRAS\,07145, RV\,Aqr),
+con un rango amplio que abarca desde delgado hasta moderadamente grueso; \textbf{3 son gruesas}
+(IRAS\,07180, IRAS\,08500, RZ\,Sgr), donde la corrección de opacidad aumenta la masa de forma
+significativa (hasta $\sim6\times$ en RZ\,Sgr); y V510\,Pup queda provisional.
+
+% ============================================================
+\section{Discusión y limitaciones}
+
+\textbf{Qué cambió respecto a $\tau=1$.} Las fuentes delgadas tienen ahora masas \emph{menores}
+(el $\tau=1$ anterior sobreestimaba), mientras que las gruesas tienen masas \emph{mayores} y
+mejor justificadas. Sobre todo, la opacidad ya no es un número impuesto sino una cantidad
+derivada de los datos.
+
+\textbf{Limitación principal.} Para las fuentes gruesas, $\tau$ (y por tanto la masa) depende
+$\sim$linealmente de la abundancia $X$, que se adopta por tipo. Lo robusto es la
+\emph{clasificación} delgado/grueso, que sale directamente de $R$; el \emph{valor} de la masa
+de las gruesas hereda la incertidumbre de $X$, que reportamos como rango. La forma rigurosa de
+eliminar esta dependencia sería un modelo de transferencia radiativa completo de la envolvente
+por fuente (estilo \citealp{ramstedt2014}), que derivaría $X$ de los datos; un código LVG
+simple (p.\,ej.\ RADEX) no basta, porque también requiere asumir $X$ para relacionar las
+columnas de $^{12}$CO y $^{13}$CO.
+
+\textbf{Próximos pasos.} (i) Buscar valores de $X$ publicados por fuente (fotosféricos o de
+transferencia radiativa) para las tres gruesas, donde $X$ es determinante; (ii) refinar
+$\sigma_I$ con el ruido por canal de los cubos ALMA; (iii) obtener un $^{12}$CO/$^{13}$CO para
+V510\,Pup.
+
+% ============================================================
+\begin{thebibliography}{9}
+
+\bibitem[Cerrigone et al.(2012)]{cerrigone2012}
+Cerrigone, L., Menten, K.~M., \& Kami\'nski, T.\
+2012, \textit{A\&A}, 542, A15
+
+\bibitem[Choi et al.(1993)]{choi1993}
+Choi, M., Evans, N.~J.~II, \& Jaffe, D.~T.\
+1993, \textit{ApJ}, 417, 241
+
+\bibitem[Huggins et al.(1996)]{huggins1996}
+Huggins, P.~J., Bachiller, R., Cox, P., \& Forveille, T.\
+1996, \textit{A\&A}, 315, 284
+
+\bibitem[Lambert et al.(1986)]{lambert1986}
+Lambert, D.~L., Gustafsson, B., Eriksson, K., \& Hinkle, K.~H.\
+1986, \textit{ApJS}, 62, 373
+
+\bibitem[Mangum \& Shirley(2015)]{mangum2015}
+Mangum, J.~G., \& Shirley, Y.~L.\
+2015, \textit{PASP}, 127, 266
+
+\bibitem[Ramstedt et al.(2008)]{ramstedt2008}
+Ramstedt, S., Sch\"oier, F.~L., Olofsson, H., \& Lundgren, A.~A.\
+2008, \textit{A\&A}, 487, 645
+
+\bibitem[Ramstedt \& Olofsson(2014)]{ramstedt2014}
+Ramstedt, S., \& Olofsson, H.\
+2014, \textit{A\&A}, 566, A145
+
+\bibitem[Xie et al.(1994)]{xie1994}
+Xie, S., Young, J.~S., \& Schloerb, F.~P.\
+1994, \textit{ApJ}, 421, 434
+
+\end{thebibliography}
+
+\end{document}

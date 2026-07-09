@@ -1,0 +1,102 @@
+No. 2, 1994
+
+
+I-
+
+
+J = 2-1/f = 1-0 and `2C0/'3C0 f = 1-0 line ratios in NGC
+2146. For the sake of clarity, this figure does not show the
+contours constrained by the observed 1 o upper and lower
+limits. The thick solid, dashed, and dot long-dashed contours
+illustrate the results of 12C0/H2 = 2 x iO~, and the thin
+solid, dashed, and dot long-dashed contours represent the
+results of `2C0/H2 = 10 ~. In the figure there is also a
+hatched arrow superposed on the contour maps. This arrow
+traces down the approximate locations of the small region
+where the intersect of the three ratios resides when the fractional abundance of `2C0/H2 used in the calculations gradually
+varies from 2 x iO~ to 10 ~, with the arrow pointing toward
+the direction of decreasingf(CO). The width of the arrow does
+not have any quantitative meaning. The change of the location
+in the T - n(H2) diagram manifests the underlying uncertainties in the determination of the physical properties of the
+
+molecular gas in galaxies, for lack of the knowledge of the
+fractional abundance and the beam filling factor. In spite of the
+ambiguity on the absolute values of the average physical
+properties of the gas, a sense of the lower limits can be gained
+by the comparisons between the observed line ratios and the
+model results at various 12C0/H2 ratios. The average temperature and density of the molecular gas in the 45" nuclear
+region of NGC 2146 are estimated to be T ~ 40 K and
+n(H2) ~ iO'~ cm ~ ~ respectively, over the fractional abundance
+range examined in this work. The upper limit to the average
+gas temperature may be guessed from the average dust temperature in same region if the gas and dust components are
+indeed coupled, which we will discuss in next section through a
+statistical study.
+Based upon the average temperature of 55 K and density of
+2 x iO'~ cm ~ evaluated at the fractional abundance of
+
+STUDY OF NGC 2146 AND IC 342
+
+100
+
+100
+
+
+60
+
+
+E-~ 40
+
+
+20
+
+447
+
+60
+
+
+40
+
+
+20
+
+I I \ I ~ \\~~ ~ ~
+\ \ \`\ ,,;,~`;`2' ~.` ,/
+I t I\ ,`,`,` *1
+. . ~\ ,,1O.4
+I t . `ii .
+\ ~I\ ",`,` I
+~ . I Ii, *
+- t ~I ~,/,, *1 / -
+. ~I \j/~' /
+\\ ~ ~Ø*:~~..-*'* /~.4
+\ L~ /
+)c~:~~* ~
+/22<
+I /~`
+4_I_I I ~4...i I i i i i I i i i_i~l i~i
+
+3 4 5
+log n(H2) (cm3)
+
+2 3 4 5
+log n(H~) (cm3)
+
+6
+
+2 3 4 5 6 2 3 4 5 6
+log n(H,) (cm3) log n(H2) (cm3)
+
+FIG. 9-Constraints on the physical conditions of molecular gas in the central 45" regions of NGC 2146 and IC 342; the calculated line ratios vs. molecular
+hydrogen density n(H2) and temperature T. (a) For 12C0/H2 = iO~ and 12C0/13C0 = 60, the constrained contours of 12C0 J = 2-1/f = 1-0 line ratio of 0.95
+(thick solid line), 13C0 J = 2-1/f = 1-0 line ratio of 3.0 (thick dot long-dashed line) and 12C0/'3C0 f = 1-0 line ratio of 17 (thick short-dashed line) in NGC 2146.
+The two thin lines of each type refer to the constrained 1 a lower and upper limits. The hatched region indicates the best fits to the observed data. (b) Effect of the
+abundance ratio of 12C0/H2 on the derivation of the physical conditions of molecular gas in NGC 2146. The thick contours are obtained by using `2C0/H2 =
+2 x iO~ and 12C0/13C0 = 60, and the thin contours are the results by using 12C0/H2 = iO~ and `2C0/13C0 = 60. The line ratios are marked along each
+contour. The hatched arrow roughly indicates the physical parameter domains which best fit the observed line ratios. The arrow points to the direction of decreasing
+the abundance ratio of `2C0/H2. (c) For 12C0/H2 = iO~ and 12C0/13C0 = 60, the constrained contours of `2C0 f = 2-1/f = 1-0 line ratio of 1.1 (thick solid
+line), `3C0 f = 2-1/f = 1-Oline ratio of 1.4(thick dot long-dashed line), and `2C0/13C0 f = 1-Oline ratio of 1O(thick short-dashedline)in IC 342. The two thin lines
+of each type refer to the constrained 1 a lower and upper limits. The hatched region indicates the best fits to the observed data. (d) Effect of the abundance ratio of
+12C0/H2 on the derivation of the physical conditions of molecular gas in IC 342. The thick contours are obtained by using 12C0/H2 = 2 x iO~ and 12C0/
+13c0 = 60, and the thin contours are the results by using 12C0/H2 = iO~ with 13C0 abundance unchanged. The line ratios are marked along each contour. The
+slashed arrow roughly indicates the physical parameter domains which best fit for the observed line ratios. The arrow points to the direction of decreasing the
+abundance ratio of `2C0/H2.

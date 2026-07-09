@@ -1,0 +1,92 @@
+FIG. 1-Enlargement ofthe blue photograph ofNGC 2146 from the Revised Shapley Ames Catalog, kindly provided by A. Sandage. The plus marks indicate the
+locations of the ` 2C0 J = 1-0 observations (45" resolution), and the circles illustrate the positions of the J = 2-1 observations (23" resolution) made with the
+FCRAO 14 m telescope.
+
+FIG. 2-Locations of the ~ 2C0 and ` 3C0 J = 2-1 and 1-0 observations of
+IC 342 superposed on the integrated ` 2C0 J = 1-0 intensity contour map
+with 7" resolution (Lo et a!. 1984). The smaller circles show the locations of the
+23" CO J = 2-1 observations, and the larger ones are the 45" beams for the
+J = 1-0 line. The plus represents the peak of 2.2 ~tm emission (Becklin et al.
+1980).
+
+
+
+
+INFRARED PROPERTIES
+
+
+
+
+Galaxy
+(1)
+
+FLU
+
+X DENSITIES AND DERIV
+
+ED DUST
+
+TEMPERATURES
+
+
+IRAS
+
+
+50"
+
+
+6~m
+(Jr)
+(2)
+
+~m TD(IRAS)
+(Jr) (K)
+(3) (4)
+
+;sm
+(Jr)
+(5)
+
+urn
+
+(Jr)
+(6)
+
+T,~(5O")
+(K)
+(7)
+
+NGC2146 
+1C342 
+
+145
+302
+
+195 46
+662 37
+
+64
+152
+
+71
+101
+
+40
+46
+
+Nom~.-Col. (1) Galaxy name. Cols. (2) and (3) IRAS flux densities at 60
+and 100 pm derived from one-dimensional addscans for NGC 2146 using the
+1986 February calibration; and from two-dimensional co-added all-sky survey
+data for IC 342 (see Young et a!. 1989). Errors are `~ 10%. Col. (4) Global
+IRAS dust temperature computed from the ratio of 60-100 j~m flux densities
+by assuming a single temperature component and a ~ ` emissivity law. Errors
+of ± 15% in S60,,m/S1005m translate into `~ ±3 K. Cols. (5) and (6) Flux
+densities at 50 and 100 j~m observed in central 50" region by Rickard &
+Harvey 1984. Systematic errors are stated to be less than 30%. Col. (7) 50" dust
+temperature computed from the ratio of 50-100 j~m flux densities in Rickard &
+Harvey 1984 by assuming a single temperature component and a ~ ~ emissivity law. Errors of ± 45% in S50 ,~m/S100pm translate into ~ ± 10 K.
+
+TABLE 2
+
+42m005
+RA

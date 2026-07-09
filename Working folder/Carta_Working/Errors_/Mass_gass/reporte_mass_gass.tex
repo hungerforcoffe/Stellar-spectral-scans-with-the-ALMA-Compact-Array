@@ -1,0 +1,287 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{pdflscape}
+\usepackage{natbib}
+
+\geometry{margin=2.5cm}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\title{
+    \textbf{Reporte de Avance}\\[0.5em]
+    \large Masa del Gas Molecular en Envolventes Circumestelares:\\
+    Cálculo, Opacidad y Significado de $\tau$
+}
+\author{Pablo Rojas}
+\date{\today}
+
+% ============================================================
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{Introducción}
+
+Este reporte documenta el cálculo de la masa del gas molecular ($M_{\rm gas}$) en las
+envolventes circumestelares (CSE) de la muestra de nueve estrellas AGB y post-AGB.
+El método sigue el formalismo de densidad de columna de CO usado por
+\citet{cerrigone2012} (a su vez basado en \citealp{choi1993}), aplicado a las transiciones
+que tenemos disponibles, CO$(1\to0)$ y CO$(2\to1)$, y con la opacidad de la línea estimada
+a partir de la razón $^{12}$CO/$^{13}$CO.
+
+El reporte enfatiza tres puntos que conviene tener claros al trabajar la masa de gas:
+\begin{enumerate}
+    \item \textbf{Cómo se calcula} la masa y cómo se conecta con el método de Cerrigone (Sección~2).
+    \item \textbf{El significado físico de $\tau$} y, en particular, \textbf{por qué para varias
+    fuentes $\tau = 0$} (Sección~3). Este es el punto conceptualmente más delicado.
+    \item \textbf{Qué parámetros dominan} el valor y su incertidumbre (Sección~4).
+\end{enumerate}
+
+% ============================================================
+\section{Cómo se calcula la masa}
+
+\subsection{Fórmula general}
+
+La masa de H$_2$ se obtiene de la densidad de columna de CO integrada sobre el haz,
+siguiendo la ec.~4 de \citet{cerrigone2012}:
+\begin{equation}
+    M_{{\rm H}_2} = m_{{\rm H}_2}\, D^2\, \Omega\, N_{\rm CO}\, f_{\rm CO}^{-1},
+    \qquad M_{\rm gas} = 1.36\,M_{{\rm H}_2},
+    \label{eq:Mmain}
+\end{equation}
+donde $m_{{\rm H}_2}$ es la masa de la molécula de H$_2$, $D$ la distancia, $\Omega$ el ángulo
+sólido del haz, y $f_{\rm CO}=N_{\rm CO}/N_{\rm H_2}$ es la \textbf{abundancia} de CO relativa a
+H$_2$ (adoptada por tipo espectral; \citealp{ramstedt2008}); el factor $1.36$ corrige por helio.
+Como $f_{\rm CO}\sim10^{-4}$--$10^{-3}$ es la fracción de CO respecto de H$_2$, la columna de
+H$_2$ se recupera dividiendo: $N_{\rm H_2}=N_{\rm CO}/f_{\rm CO}$, es decir, $f_{\rm CO}$ entra
+con exponente $-1$ (la ec.~4 de \citealp{cerrigone2012} la escribe como $N_{\rm CO}\,f_{\rm CO}$
+pero el factor que convierte CO a H$_2$ es $f_{\rm CO}^{-1}$).
+
+\subsection{Densidad de columna: la misma fórmula que Cerrigone}
+
+La densidad de columna de CO se calcula con la forma de \citet[ec.~5]{cerrigone2012}:
+\begin{equation}
+    N_{\rm CO} = C_0 \cdot \frac{W}{D(n,T)} \cdot \frac{\tau}{1-e^{-\tau}},
+    \qquad W = 1.222\times10^6\,\frac{I_{\rm CO}}{\nu^2\,\theta_{\rm maj}\,\theta_{\rm min}},
+    \label{eq:NCO}
+\end{equation}
+donde $W$ es la temperatura de brillo integrada [K\,km\,s$^{-1}$], $I_{\rm CO}$ el flujo
+integrado [Jy\,km\,s$^{-1}$], $C_0$ el prefactor de columna y $D(n,T)$ el factor de
+excitación. El ángulo sólido del haz se cancela con $W$, de modo que la masa de una fuente
+no resuelta no depende del tamaño del haz.
+
+\citet{cerrigone2012} observa CO$(3\to2)$ y usa $C_0 = 1.1\times10^{15}$ con
+$D(n,T)\approx1.5$. Como nosotros observamos $1\to0$ y $2\to1$, calculamos $C_0$ y $D(n,T)$
+\textbf{una sola vez} para esas transiciones con la fórmula general \citep{mangum2015} y los
+dejamos como constantes (a $T_{\rm ex}=20$\,K):
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+Transición & $C_0$ [cm$^{-2}$(K\,km\,s$^{-1}$)$^{-1}$] & $D(n,T)$ & $C_0/D$ \\
+\midrule
+CO$(1\to0)$ & $6.61\times10^{14}$ & 0.552 & $1.20\times10^{15}$ \\
+CO$(2\to1)$ & $9.92\times10^{14}$ & 1.976 & $5.02\times10^{14}$ \\
+CO$(3\to2)$ & $\mathbf{1.10\times10^{15}}$ & 2.18 & $5.07\times10^{14}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent \textbf{Comprobación clave:} evaluada en CO$(3\to2)$, la fórmula reproduce
+$C_0 = 1.10\times10^{15}$, exactamente el valor de \citet{cerrigone2012}. Esto confirma que
+\emph{usamos el mismo método}; lo único que cambia es el valor numérico del prefactor, que
+es propio de cada transición (cambian $\nu$, el coeficiente de Einstein y los niveles).
+
+\subsection{Transición usada por fuente}
+
+Como $\tau$ debe medirse en la misma transición que la masa, se calcula la masa desde la
+transición que tiene $^{13}$CO observado: CO$(1\to0)$ para R~Hor, RV~Aqr, RZ~Sgr y UU~For;
+CO$(2\to1)$ para los cuatro IRAS y V510~Pup.
+
+% ============================================================
+\section{El significado de $\tau$ y por qué muchas veces es cero}
+
+Esta es la parte conceptualmente más importante. La opacidad $\tau$ se obtiene de la razón
+$^{12}$CO/$^{13}$CO con la fórmula del isotopólogo \citep{ramstedt2014}:
+\begin{equation}
+    R \equiv \frac{T(^{12}\rm CO)}{T(^{13}\rm CO)}
+    = \frac{1-e^{-\tau_{12}}}{1-e^{-\tau_{13}}},
+    \qquad \tau_{12} = X\,\tau_{13},
+    \label{eq:tau}
+\end{equation}
+donde $X = {}^{12}$CO/$^{13}$CO es la abundancia isotópica, tomada de \citet{ramstedt2014}
+para estrellas AGB por tipo ($X=13$ para M, $26$ para S, $34$ para C).
+
+\subsection{La regla fundamental: $R \leq X$}
+
+De la Ec.~(\ref{eq:tau}) se deduce una propiedad central:
+\begin{equation}
+    R = X\cdot\frac{1-e^{-\tau_{12}}}{\tau_{12}} \;\leq\; X,
+    \qquad\text{con } R = X \text{ exactamente cuando } \tau_{12}\to0.
+    \label{eq:RleqX}
+\end{equation}
+Es decir: \textbf{la razón observada nunca puede ser mayor que la abundancia real}. La
+opacidad solo \emph{suprime} $R$ por debajo de $X$ (el $^{12}$CO se satura y deja de verse
+parte de las moléculas). Cuanto más se aleja $R$ hacia abajo de $X$, mayor es $\tau$.
+
+\subsection{Por qué $\tau = 0$ (gas ópticamente delgado)}
+
+De la Ec.~(\ref{eq:RleqX}), $\tau=0$ corresponde a $R = X$. En la práctica esto ocurre
+cuando la razón observada \textbf{alcanza o supera} la abundancia adoptada:
+\begin{equation}
+    \boxed{\;\tau = 0 \quad\Longleftrightarrow\quad R \geq X\;}
+\end{equation}
+
+\noindent \textbf{Interpretación.} Una razón $^{12}$CO/$^{13}$CO alta es, literalmente, la
+firma de gas ópticamente delgado: si la línea no está saturada, vemos directamente la
+proporción real de isótopos. Por eso, cuando $R$ es grande, la conclusión es que el
+$^{12}$CO es transparente y \emph{no hay corrección de opacidad} ($\tau/(1-e^{-\tau})\to1$).
+
+¿Y el caso ``imposible'' en que $R$ sale incluso mayor que la mediana $X$ de su tipo (por
+ejemplo IRAS\,06531 con $R=84.7$ frente a $X_{\rm C}=34$)? No es una contradicción:
+simplemente \textbf{la mediana del tipo subestima el $X$ de esa estrella}. La
+Ec.~(\ref{eq:RleqX}) nos dice que su $X$ real debe ser $\geq R$. O sea, no es que el dato
+falle, sino que \emph{descubrimos que esa estrella tiene una abundancia $^{12}$CO/$^{13}$CO
+alta}, y con $X$ alto y $R$ alto el gas es delgado. La conclusión $\tau=0$ es robusta.
+
+\subsection{Por qué $\tau > 0$ (gas ópticamente grueso)}
+
+El caso opuesto:
+\begin{equation}
+    \boxed{\;\tau > 0 \quad\Longleftrightarrow\quad R < X\;}
+\end{equation}
+es decir, \textbf{cuando la abundancia de Ramstedt es mayor que la razón observada}. La
+diferencia entre $X$ (lo que ``debería'' valer la razón si fuera delgado) y $R$ (lo que
+medimos) es la huella de la opacidad: el $^{12}$CO está saturado y su intensidad queda
+``frenada'', bajando $R$ por debajo de $X$. El valor de $\tau$ se obtiene resolviendo
+numéricamente la Ec.~(\ref{eq:tau}): mientras más pequeño es $R$ respecto de $X$, más grande
+es $\tau$ (RZ~Sgr, con $R=4.7$ y $X=26$, da $\tau=6.3$, el más grueso de la muestra).
+
+\subsection{Resumen en una frase}
+
+\begin{center}
+\fbox{\parbox{0.92\textwidth}{\centering
+$R \geq X \Rightarrow \tau = 0$ (delgado): la razón alcanza la abundancia, vemos el gas
+entero.\\[2pt]
+$R < X \Rightarrow \tau > 0$ (grueso): la abundancia de Ramstedt supera la razón observada;
+esa brecha mide la opacidad.}}
+\end{center}
+
+\noindent \textbf{Nota sobre RV~Aqr.} Para RV~Aqr usamos el valor \emph{individual} de
+\citet{ramstedt2014}, $X=20$ (no la mediana de carbono $X=34$). Como su razón observada
+$R=27.1 \geq 20$, resulta $\tau=0$ (delgado).
+
+% ============================================================
+\section{Incertidumbre y qué parámetros dominan}
+
+De la Ec.~(\ref{eq:Mmain}), $M_{\rm gas}\propto D^2\,I_{\rm CO}\,\tau_{\rm corr}/f_{\rm CO}$.
+El error estadístico se propaga en cuadratura con las incertidumbres del flujo y la distancia:
+\begin{equation}
+    \left(\frac{\sigma_{M_{\rm gas}}}{M_{\rm gas}}\right)^2 =
+    \left(\frac{\sigma_I}{I_{\rm CO}}\right)^2 + \left(\frac{2\,\sigma_D}{D}\right)^2,
+    \label{eq:err}
+\end{equation}
+con $\sigma_I = 10\%$ (estimado) y $\sigma_D$ de Gaia~DR3 por fuente. Conclusiones:
+\begin{itemize}
+    \item \textbf{La distancia es la palanca más fuerte} sobre el valor, porque entra al
+    cuadrado ($M\propto D^2$); explica el rango de masas entre fuentes (las lejanas pesan más).
+    \item En el \textbf{error estadístico}, la distancia domina en 6 de 9 fuentes (entra como
+    $2\sigma_D/D$); el flujo domina solo en las 3 con paralaje Gaia muy preciso (R~Hor,
+    RV~Aqr, RZ~Sgr).
+    \item El \textbf{mayor sistemático} es $f_{\rm CO}$ (factor $\sim3$, adoptado de
+    literatura), seguido de $\tau/X$ (solo en las gruesas) y $T_{\rm ex}$ (factor $\sim2$).
+    El flujo $I_{\rm CO}$ es el parámetro mejor medido ($\sim10\%$).
+\end{itemize}
+
+% ============================================================
+\section{Resultados}
+
+\begin{table}[H]
+\centering
+\caption{Masa de gas molecular. $R$ es la razón $^{12}$CO/$^{13}$CO observada; $X$ la
+abundancia adoptada (mediana de \citealp{ramstedt2014} por tipo; valor individual para
+RV~Aqr); $\tau$ la opacidad; $M_{\rm gas}$ la masa total (con He) y $\sigma/M$ su error
+estadístico. Régimen: T=delgado, M=marginal, G=grueso. $T_{\rm ex}=20$\,K.}
+\label{tab:mass}
+\begin{tabular}{llccccccc}
+\toprule
+Fuente & Trans. & Tipo & $D$ (pc) & $f_{\rm CO}$ & $R$ & $X$ & $\tau$ & $M_{\rm gas}$ ($M_\odot$) [$\sigma/M$] \\
+\midrule
+IRAS 06531$-$0216 & 2$-$1 & C & 1158 & $1.0\!\times\!10^{-3}$ & 84.7 & 34 & 0.00 & $7.89\times10^{-4}$ \;[25\%]\; (T) \\
+IRAS 07145$-$1428 & 2$-$1 & C & 4145 & $1.0\!\times\!10^{-3}$ & 26.7 & 34 & 0.52 & $5.64\times10^{-3}$ \;[59\%]\; (M) \\
+IRAS 07180$-$1314 & 2$-$1 & M & 1168 & $1.0\!\times\!10^{-3}$ & 4.95 & 13 & 2.72 & $3.01\times10^{-4}$ \;[46\%]\; (G) \\
+IRAS 08500$-$3254 & 2$-$1 & M & 1527 & $2.0\!\times\!10^{-4}$ & 4.42 & 13 & 3.18 & $4.10\times10^{-2}$ \;[25\%]\; (G) \\
+R Hor             & 1$-$0 & M &  231 & $2.0\!\times\!10^{-4}$ & 39.1 & 13 & 0.00 & $1.20\times10^{-3}$ \;[12\%]\; (T) \\
+RV Aqr            & 1$-$0 & C &  635 & $2.0\!\times\!10^{-4}$ & 27.1 & 20$^{\ast}$ & 0.00 & $2.55\times10^{-2}$ \;[13\%]\; (T) \\
+RZ Sgr            & 1$-$0 & S &  424 & $6.0\!\times\!10^{-4}$ & 4.67 & 26 & 6.25 & $8.46\times10^{-3}$ \;[11\%]\; (G) \\
+UU For            & 1$-$0 & M &  615 & $2.0\!\times\!10^{-4}$ & 18.8 & 13 & 0.00 & $7.71\times10^{-3}$ \;[19\%]\; (T) \\
+V510 Pup          & 2$-$1 & post-AGB & 436 & $4.0\!\times\!10^{-4}$ & 12.1 & --- & 1.00$^{\dagger}$ & $8.77\times10^{-4}$ \;[33\%] \\
+\bottomrule
+\end{tabular}
+\\[0.3em]
+{\footnotesize $^{\ast}$ valor individual de \citet{ramstedt2014} para RV~Aqr.
+\quad $^{\dagger}$ V510~Pup (post-AGB) no tiene $^{12}$CO/$^{13}$CO publicado; $\tau=1$
+provisional.}
+\end{table}
+
+\noindent De las nueve fuentes, \textbf{4 son ópticamente delgadas} ($\tau=0$: IRAS\,06531,
+R\,Hor, RV\,Aqr, UU\,For), donde la masa no depende de la opacidad; \textbf{1 es marginal}
+(IRAS\,07145); \textbf{3 son gruesas} (IRAS\,07180, IRAS\,08500, RZ\,Sgr), donde la
+corrección de opacidad aumenta la masa; y V510\,Pup queda provisional. Las masas cubren
+$\sim\!3\times10^{-4}$ a $\sim\!4\times10^{-2}\,M_\odot$.
+
+% ============================================================
+\section{Puntos importantes a recordar}
+
+\begin{enumerate}
+    \item El método es el de \citet{cerrigone2012}; el prefactor $C_0$ se calcula por
+    transición y reproduce su $1.1\times10^{15}$ en CO$(3\to2)$.
+    \item $\tau$ se mide de la razón $^{12}$CO/$^{13}$CO con abundancias \emph{de AGB}
+    (\citealp{ramstedt2014}), no galácticas.
+    \item \textbf{$\tau=0$ no es un error ni un caso imposible}: significa $R\geq X$, es decir,
+    gas delgado en el que la razón observada revela la abundancia real de la estrella.
+    \item $\tau>0$ aparece cuando $X_{\rm Ramstedt} > R$; la brecha mide la opacidad.
+    \item La distancia ($\propto D^2$) y $f_{\rm CO}$ son los parámetros que más afectan el
+    resultado; el flujo es el más confiable.
+\end{enumerate}
+
+% ============================================================
+\begin{thebibliography}{9}
+
+\bibitem[Cerrigone et al.(2012)]{cerrigone2012}
+Cerrigone, L., Menten, K.~M., \& Kami\'nski, T.\
+2012, \textit{A\&A}, 542, A15
+
+\bibitem[Choi et al.(1993)]{choi1993}
+Choi, M., Evans, N.~J.~II, \& Jaffe, D.~T.\
+1993, \textit{ApJ}, 417, 241
+
+\bibitem[Mangum \& Shirley(2015)]{mangum2015}
+Mangum, J.~G., \& Shirley, Y.~L.\
+2015, \textit{PASP}, 127, 266
+
+\bibitem[Ramstedt et al.(2008)]{ramstedt2008}
+Ramstedt, S., Sch\"oier, F.~L., Olofsson, H., \& Lundgren, A.~A.\
+2008, \textit{A\&A}, 487, 645
+
+\bibitem[Ramstedt \& Olofsson(2014)]{ramstedt2014}
+Ramstedt, S., \& Olofsson, H.\
+2014, \textit{A\&A}, 566, A145
+
+\end{thebibliography}
+
+\end{document}

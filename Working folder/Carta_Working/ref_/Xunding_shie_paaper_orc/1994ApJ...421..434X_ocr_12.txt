@@ -1,0 +1,121 @@
+No. 2, 1994
+
+STUDY OF NGC 2146 AND IC 342
+
+445
+
+wheref~ stands for the coupling factor of antenna to source. In
+view of the similar beam sizes at the frequencies of the same
+transition for these two isotopes, we regard the ratio of
+J~(12CO) tof~(13CO) as being close to one (this may or may not
+be appropriate), under the assumption that the two lines come
+from the same region. Besides, taking into account that the
+equivalent Rayleigh-Jeans temperature ratio of `2C0 and
+13C0 is about 0.98 at LTE excitation temperature ~ = 10 K
+and 0.99 at ~ = 40 K, we approximate the radiation temperature ratio of' 2C0 and ` 3C0 as
+TR('2C0) 1 -
+TR('3C0) 1 - e~3C~
+
+If the `2C0/' 3C0 isotopic ratio is assumed to be X, an
+approximate optical depth of `2C0 can be obtained from the
+observed TR('2C0)/TR('3CO) ratio of a certain source.
+However, the determined value is only approximate because
+7~~('2CO) may be quite different from 7~~('3CO) in reality and
+therefore `r('2C0) may not be given by `r('3C0)X (J. Kwan
+1990, private communication). Thus this estimation of the
+optical depth should primarily be regarded as a supplementary
+means to ascertain the reliability of the LTE excitation temperature inferred from the J = 2-1/f = 1-0 ratio, particularly
+if a `2C0 TR(2-l)/T~(l-O) ratio of greater than one is observed.
+The estimated `2C0 optical depth depends on the assumed
+`2C0/'3CO isotopic ratio.
+4.2.1. NGC 2146
+The `2C0 to `3C0 line ratios in NGC 2146 at the J = 2-1
+and 1-0 transitions are 3.9 ± 1.3 and 17 ± 3, respectively. We
+use a `2C0/'3C0 fractional abundance of 60 to evaluate the
+optical depths of the emission. Based on the LTE analysis with
+the assumption of t('2CO) ~ x('3C0)X, we obtain an optical
+depth of ~ 18~' for the `2C0 J = 2-1 line and a value of
+~%~4 ~ 1 for the J = 1-0 line using equation (10). The optical
+depth ofthe `3C0 J = 1-0 line is found to be much less than 1.
+Thus the `2C0 and `3C0 emission at the center of NGC 2146
+seem to be normal, that is, the ` 2C0 emission is from a warm
+and optically thick gas and the ` 3C0 emission is optically thin.
+4.2.2. IC 342
+The comparison of 12C0 and `3C0 emission does not
+reveal optically thin `2C0 gas at the center of IC 342. Nevertheless, both derived `2C0 J = 2-1 and 1-0 opacities are less
+than 10 if the assumption that `2C0 and `3C0 have the same
+excitation temperature through the energy level ladder can be
+made in the estimation of the opacities. The observed `2C0 to
+`3CO line ratios of J = 2-1 and 1-0 are 8.5 ± 2.9 and 10 ± 2,
+respectively. The estimated optical depth of the. `2C0 J = 2-1
+line (8 ii) is only slightly higher than that (6 ± 1) of the
+J = 1-0 line (by a factor of 1.3) if a common excitation ternperature is used for the two transitions.
+In order to consider the effect of the four off-center 23"
+spectra of the ` 3C0 J = 2-1 emission on the determination of
+the higher 45" `3C0 J = 2-1/f = 1-0 ratio of 7 ± 2 in NGC
+2146, we have also calculated the expected 45" `3C0 f = 2-1/
+f = 1-0 ratio in terms of the relatively high 45" `2C0 f = 2-1/
+
+terms of the common LTE excitation temperature by
+TR('2C0) f'2(~:~) - f'2(Tbb) 1 - e_t~2C~ f~('2CO)
+TR('3C0) f'3c1~~) - f'3(T~b) 1 - et~3CO) f~('3CO)
+
+(9)
+
+f = 1-0, `2C0/'3C0 f = 1-0, and the central 25" `2C0/'3C0
+f - 2-1 line ratios, namely,
+[1 3CO(2-1)1 _ [1 3C0(2-1)1 [`2Co(2-1)1
+Li ~CO(1-O)j45~ - L12C0(21)j45,,[12C0(1_o)]45,,
+
+[`2CO(1-O)1
+x [`~CO(1-O)]45~~
+
+,~ [`3CO(2-1)1 [`2C0(2-1)1 [`2C0(1-O)1 11
+= [12C0(2_1)j23,,[12C0(1_o)j45,,[13C0(1o)]45,, . (
+
+This method avoids using the off-center 25" `3C0 f = 2-1
+data, since significant baseline errors may exist in these broad
+and weak spectra of NGC 2146. This problem is much less
+significant for the narrow ` 3C0 J = 2-1 spectra of IC 342. In
+the final expression of equation (1 1), the `2C0 f = 2-1/f =
+1-0 line ratio is determined by the f = 2-1 and 1-0 emission
+(10) sampled over the same 45" region (i.e., using the five-beamaveraged f = 2-1 and single-beam f = 1-0 spectra), while the
+`3C0(2-1)/'2CO(2-1) line ratio is obtained from the single 23"
+beam observations at the center of each galaxy [we have
+assumed that the ` 3C0(2-1)/' 2C0(2-1) line ratio remains constant over the nuclear region so that the five-beam-averaged
+ratio can be replaced by that of the central single 23"
+observations]. The above formula gives the anticipated result
+which should be comparable to the observed ` 3C0 five-beamaveraged 45" f = 2-1 to single-beam 45" f = 1-0 ratio if
+above-mentioned assumption is appropriate. For IC 342, the
+predicted `3C0 f = 2-1/f = 1-0 line ratio is 1.3 ± 0.6, which
+is in reasonable agreement with the value of 1.4 ± 0.4 obtained
+earlier. For NGC 2146, the predicted value for the same ratio is
+about 4. 1 ± 1.9, indicating that the baseline error of the four
+off-center 25" ` 3C0 f = 2-1 spectra may be the cause of the
+higher ratio of 7.2 ± 2.0 derived from the averaged 45" ` 3C0
+f = 2-1 spectra. It is most likely that the `3C0 f = 2-1/f =
+1-0 ratio in NGC 2146 has a value between the maximum of 4
+and the lower limit of 2.2.
+4.3. `2C0/CS Ratio
+CS emission is of interest because high gas densities of
+n(H2) ;~; iO~ cm ~ are required to produce observable CS
+emission. Since the molecular cloud cores where massive stars
+form most likely have such high-density regions and CO transitions cannot directly trace them, the CS emission provides an
+important tracer for studies of star formation in galaxies.
+Because IC 342 and NGC 2146 both have significant amounts
+of star formation, CS emission would not be surprising. CS
+f = 2-1 emission has been detected in IC 342 (Henkel & Bally
+1985; Mauersberger & Henekl 1989; Sage, Shore, & Solomon
+1990), while only negative results have been reported for NGC
+2146 previously (Sage et al. 1990). Such weak CS f = 2-1 emission in NGC 2146 is surprising since NGC 2146 is believed to
+be undergoing a burst of star formation (e.g., Jackson & Ho
+1988; Young et al. 1988a, b). Our observations yield a positive
+detection in NGC 2146 with strong CS f = 2-1 emission from
+the center. The observed line is in good agreement with the
+velocity of the `2C0 line and appears to exceed the upper
+limits published by Sage et al. (1990). The `2C0/CS line ratio is
+21 ± 4 at the center of NGC 2146, and it is similar to that
+observed in NGC 253 (Sage et al. 1990). The observed
+`2C0/CS line ratio in IC 342 is 47 ± 10, which is consistent
+with the value of 45 obtained by Mauersberger & Henkel
+(1989). The results may indicate that the gas density in the

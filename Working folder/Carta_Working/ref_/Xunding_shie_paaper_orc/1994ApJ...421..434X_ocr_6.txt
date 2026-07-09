@@ -1,0 +1,78 @@
+STUDY OF NGC 2146 AND IC 342
+
+439
+
+12c0 J=1-o
+
+
+~
+E-~ 0L...A~(~;
+
+sample effectively the same volume of gas in both transitions.
+The central J = 2-i spectrum and the four adjacent spectra
+have been equally weighted and averaged so that the synthesized spectrum represents the J = 2-1 emission from the area
+covered by the J = 1-0 beam. The J = 2-1 data have also been
+convolved with a Gaussian to the 45" resolution of the J = 1-0
+data. Since the two methods result in similar line intensities, we
+have used the five-beam averaged spectra for the `2C0 and
+l3~~ j = 2-1 transitions throughout our analysis. Table 3
+lists all the `2C0 and 13C0 data obtained in NGC 2146 and
+IC 342. A summary of the observed line intensities at the
+centers of these two galaxies is given in Table 4. In addition to
+the integrated intensities and main-beam antenna temperatures of the single-beam observations, Table 4 also lists the
+results of both the five-beam-averaged and the convolved
+spectra for the 12C0 and `3C0 J = 2-1 lines. The uncertainties given in the tables include the uncertainty from the rms
+noise (Tms), the uncertainty in the determination of the base-
+
+line, and the 1 ~j calibration uncertainty for individual measurements of ± 10% at 3 mm and of ± 20% at 1 mm obtained
+by analyzing all pointing data on Jupiter.
+Table 5 presents the line ratios calculated from the mainbeam integrated intensities. The five-beam-averaged intensity
+is used in determining the J = 2-1/f = 1-0 line ratio of a
+species. Errors include measurement, baseline, and calibration
+uncertainties.
+To illustrate the radial distributions of CO emission in the
+nuclear regions of these two galaxies more clearly, in Figures 5
+and 6 we plot the integrated main-beam brightness temperatures of the four lines as a function of distance from the
+center of each galaxy, for NGC 2146 and IC 342, respectively.
+The data points for the J = 1-0 lines present the emission
+contained in the 45" beam, and those of the J = 2-1 lines
+include the emission in the 23" beam. In NGC 2146 the `2C0
+J = 1-0 emission is slightly more intense west of the center
+than it is east of the center consistent with the asymmetry seen
+
+Noms TO TABLE 3
+
+Noms.-A11 integrated intensities are defined as I = J TMB dv. Col. (1) Galaxy name; cols. (2) and (3) Observed right ascension and declination offsets from the
+central position listed in Table 1 ; cot. (4) Integrated intensity ; col. (5) Uncertainty in the integrated intensity, including the uncertainties from the rms noise, baseline,
+and catibration (`S..' 10% at 3 mm and `~ 20% at 1 mm); cot. (6) Peak main-beam temperature, at resolutions of 13 km ~ for NGC 2146 and 5.2 km s ` for IC 342;
+cot. (7) rms noise of observed spectrum ; cot. (8) Mean velocity of observed line ; velocity units are cz.
+
+12c0 J=2-1
+
+A~i\1~ I
+-100 100
+
+-100 100
+
+
+
+.fr\
+
+
+q
+10
+
+*
+
+
+E-
+
+
+`3co j=i-o
+-100 100
+
+c*z (km/s) c*z (km/s)
+FIG. 4.-Spectra of `2C0 and `3C0 J = 2-1 and 1-0 emission along the major (vertical) and minor (horizontal) axes of IC 342. The central CCD image was
+observed with the now-retired No. 1 0.9 m telescope ofKPNO in 1987 using an R filter.
+
+`3co J=2-1
